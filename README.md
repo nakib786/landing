@@ -12,6 +12,7 @@ A beautiful, responsive "Coming Soon" landing page for FreeHoroscopeNow.com buil
 - 📱 **Fully Responsive** - Works on mobile, tablet, and desktop
 - ♿ **Accessible** - Semantic HTML and ARIA attributes
 - 🚀 **Vercel Ready** - Configured for seamless deployment
+- 📲 **PWA Support** - Progressive Web App support for Android and iOS
 
 ## Getting Started
 
@@ -83,6 +84,37 @@ vercel
 ├── package.json               # Dependencies and scripts
 └── vercel.json                # Vercel deployment configuration
 ```
+
+## PWA (Progressive Web App) Support
+
+This app is configured as a Progressive Web App with support for Android and iOS:
+
+### Features
+- **Installable** - Users can install the app on their home screen
+- **Offline Support** - Service worker caches assets for offline access
+- **App-like Experience** - Standalone display mode on mobile devices
+- **Auto-updates** - Service worker automatically updates in the background
+
+### Required Icon Files
+
+To complete PWA setup, you need to add the following icon files to the `public/` directory:
+
+- `pwa-64x64.png` - 64x64px icon
+- `pwa-192x192.png` - 192x192px icon (standard Android icon)
+- `pwa-512x512.png` - 512x512px icon (standard Android icon)
+- `maskable-icon-512x512.png` - 512x512px maskable icon (Android adaptive icons)
+- `apple-touch-icon.png` - 180x180px icon for iOS (standard)
+- `apple-touch-icon-180x180.png` - 180x180px icon for iOS (explicit)
+
+**Icon Generation Tips:**
+- Use a tool like [PWA Asset Generator](https://github.com/onderceylan/pwa-asset-generator) or [RealFaviconGenerator](https://realfavicongenerator.net/)
+- Ensure icons have proper padding for maskable icons (safe area)
+- Icons should represent your brand/horoscope theme
+
+### Testing PWA
+- **Android Chrome**: Open the site, tap menu → "Add to Home screen"
+- **iOS Safari**: Open the site, tap Share → "Add to Home Screen"
+- The app will work offline after the first visit (service worker caches assets)
 
 ## SEO
 
