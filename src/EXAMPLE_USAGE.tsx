@@ -140,3 +140,4 @@ export function Example4_PartialSection() {
  * Or modify generateColor() function to change color palette!
  */
 
+

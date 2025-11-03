@@ -14,3 +14,4 @@ Sitemap: https://www.freehoroscopenow.com/sitemap.xml
 
 # Crawl-delay (optional - allows bots to crawl without overwhelming the server)
 Crawl-delay: 1
+
