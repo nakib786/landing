@@ -149,3 +149,177 @@
               0 0 60px rgba(236, 72, 153, 0.25);
 }
 
+/* Hamburger Menu Glow Effects */
+@keyframes hamburger-glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4),
+                0 0 20px rgba(147, 51, 234, 0.5),
+                0 0 30px rgba(236, 72, 153, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6),
+                0 0 30px rgba(147, 51, 234, 0.7),
+                0 0 45px rgba(236, 72, 153, 0.6);
+  }
+}
+
+@keyframes menu-glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3),
+                0 0 30px rgba(147, 51, 234, 0.4),
+                0 0 45px rgba(236, 72, 153, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4),
+                0 0 40px rgba(147, 51, 234, 0.5),
+                0 0 60px rgba(236, 72, 153, 0.4);
+  }
+}
+
+.hamburger-glow {
+  animation: hamburger-glow-pulse 2s ease-in-out infinite;
+}
+
+.hamburger-glow:hover {
+  animation: hamburger-glow-pulse 1s ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+              0 0 40px rgba(147, 51, 234, 0.7),
+              0 0 60px rgba(236, 72, 153, 0.6);
+}
+
+.menu-glow {
+  animation: menu-glow-pulse 3s ease-in-out infinite;
+}
+
+/* Blog Modal Glow */
+@keyframes blog-modal-glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2),
+                0 0 40px rgba(147, 51, 234, 0.3),
+                0 0 60px rgba(236, 72, 153, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3),
+                0 0 60px rgba(147, 51, 234, 0.4),
+                0 0 80px rgba(236, 72, 153, 0.3);
+  }
+}
+
+.blog-modal-glow {
+  animation: blog-modal-glow-pulse 3s ease-in-out infinite;
+}
+
+/* Custom Scrollbar for Modal */
+.blog-modal-glow .overflow-y-auto {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(147, 51, 234, 0.5) transparent;
+}
+
+.blog-modal-glow .overflow-y-auto::-webkit-scrollbar {
+  width: 8px;
+}
+
+.blog-modal-glow .overflow-y-auto::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.blog-modal-glow .overflow-y-auto::-webkit-scrollbar-thumb {
+  background: rgba(147, 51, 234, 0.5);
+  border-radius: 4px;
+}
+
+.blog-modal-glow .overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: rgba(147, 51, 234, 0.7);
+}
+
+/* Page Transitions */
+@keyframes slide-out-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.page-transition-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, rgb(30 27 75), rgb(88 28 135), rgb(131 24 67));
+}
+
+.page-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  will-change: transform;
+  background: inherit;
+}
+
+.page-wrapper.page-initial {
+  position: relative;
+  transform: translateX(0) !important;
+}
+
+.page-wrapper.page-exit-forward,
+.page-wrapper.page-exit-back {
+  z-index: 1;
+}
+
+.page-wrapper.page-enter-forward,
+.page-wrapper.page-enter-back {
+  z-index: 2;
+}
+
+.page-enter-forward {
+  animation: slide-in-right 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.page-exit-forward {
+  animation: slide-out-left 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.page-enter-back {
+  animation: slide-in-left 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.page-exit-back {
+  animation: slide-out-right 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Initial positioning for pages entering from right - only when transitioning */
+.page-wrapper:not(.page-exit-forward):not(.page-exit-back):not(.page-enter-forward):not(.page-enter-back):not(.page-initial) {
+  transform: translateX(100%);
+}
+
