@@ -1,24 +1,24 @@
 import React, { useRef, useEffect, useState } from 'react';
 
-type FluidCursorEffectProps = { minimal?: boolean }
-const FluidCursorEffect: React.FC<FluidCursorEffectProps> = ({ minimal = false }) => {
+type FluidCursorEffectProps = { minimal?: boolean; reducedIntensity?: boolean }
+const FluidCursorEffect: React.FC<FluidCursorEffectProps> = ({ minimal = false, reducedIntensity = false }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animationIdRef = useRef<number | null>(null);
   const [isInitialized, setIsInitialized] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Configuration
+  // Configuration - reduce intensity for blog page
   const config = {
-    SIM_RESOLUTION: 128,
-    DYE_RESOLUTION: 1440,
+    SIM_RESOLUTION: reducedIntensity ? 64 : 128,
+    DYE_RESOLUTION: reducedIntensity ? 720 : 1440,
     CAPTURE_RESOLUTION: 512,
-    DENSITY_DISSIPATION: 3.5,
-    VELOCITY_DISSIPATION: 2,
+    DENSITY_DISSIPATION: reducedIntensity ? 5.5 : 3.5,
+    VELOCITY_DISSIPATION: reducedIntensity ? 4 : 2,
     PRESSURE: 0.1,
     PRESSURE_ITERATIONS: 20,
-    CURL: 3,
-    SPLAT_RADIUS: 0.2,
-    SPLAT_FORCE: 6000,
+    CURL: reducedIntensity ? 1 : 3,
+    SPLAT_RADIUS: reducedIntensity ? 0.08 : 0.2,
+    SPLAT_FORCE: reducedIntensity ? 2000 : 6000,
     SHADING: true,
     COLOR_UPDATE_SPEED: 10,
     PAUSED: false,

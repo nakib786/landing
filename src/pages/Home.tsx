@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import ZodiacLogo from '../components/ZodiacLogo'
 import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
@@ -32,11 +33,24 @@ function Home() {
           <RotatingHoroscopeMessage />
           
           {/* Coming Soon Badge */}
-          <div className="inline-block px-8 py-4 bg-white/10 backdrop-blur-md rounded-full border border-white/30 mb-12 animate-glow">
+          <div className="inline-block px-8 py-4 bg-white/10 backdrop-blur-md rounded-full border border-white/30 mb-8 animate-glow">
             <p className="text-2xl md:text-3xl font-semibold text-white">
               🌟 Coming Soon 🌟
             </p>
           </div>
+          
+          {/* Blog Button */}
+          <Link 
+            to="/blog" 
+            className="inline-block px-8 py-4 md:px-12 md:py-5 mb-12 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 hover:from-purple-500 hover:via-pink-400 hover:to-purple-500 rounded-full border-2 border-white/40 text-white text-xl md:text-2xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-purple-500/50 animate-pulse hover:animate-none relative overflow-hidden group"
+          >
+            <span className="relative z-10 flex items-center gap-3">
+              <span>✨</span>
+              <span>Discover Your Stars</span>
+              <span>→</span>
+            </span>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-700 via-pink-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"></div>
+          </Link>
           
           {/* Feature highlights */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mb-12">

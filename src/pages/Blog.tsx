@@ -339,7 +339,7 @@ Pisces teaches us about the power of intuition, compassion, and spiritual connec
 
   return (
     <>
-      <FluidCursorEffect minimal />
+      <FluidCursorEffect minimal reducedIntensity />
       
       <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-indigo-950 via-purple-900 to-pink-900">
         {/* Animated star field background */}
