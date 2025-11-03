@@ -28,7 +28,7 @@ function App() {
         <RotatingHoroscopeMessage />
         
         {/* Coming Soon Badge */}
-        <div className="inline-block px-8 py-4 bg-white/10 backdrop-blur-md rounded-full border border-white/20 mb-12">
+        <div className="inline-block px-8 py-4 bg-white/10 backdrop-blur-md rounded-full border border-white/30 mb-12 animate-glow">
           <p className="text-2xl md:text-3xl font-semibold text-white">
             🌟 Coming Soon 🌟
           </p>
@@ -36,19 +36,19 @@ function App() {
         
         {/* Feature highlights */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mb-12">
-          <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300">
+          <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/10 transition-all duration-300 animate-card-glow card-glow-hover">
             <div className="text-4xl mb-3">🔮</div>
             <h3 className="text-lg font-semibold text-white mb-2">Daily Insights</h3>
             <p className="text-sm text-purple-200">Personalized horoscopes updated daily</p>
           </div>
           
-          <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300">
+          <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/10 transition-all duration-300 animate-card-glow card-glow-hover">
             <div className="text-4xl mb-3">⭐</div>
             <h3 className="text-lg font-semibold text-white mb-2">All Zodiac Signs</h3>
             <p className="text-sm text-purple-200">Coverage for every astrological sign</p>
           </div>
           
-          <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300">
+          <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/10 transition-all duration-300 animate-card-glow card-glow-hover">
             <div className="text-4xl mb-3">💫</div>
             <h3 className="text-lg font-semibold text-white mb-2">100% Free</h3>
             <p className="text-sm text-purple-200">No login, no payment required</p>
