@@ -1,6 +1,7 @@
 import ZodiacLogo from './components/ZodiacLogo'
 import StarField from './components/StarField'
 import FluidCursorEffect from './components/ui/smokey-cursor-effect'
+import RotatingHoroscopeMessage from './components/RotatingHoroscopeMessage'
 
 function App() {
   return (
@@ -23,10 +24,8 @@ function App() {
           Horoscope <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400">Now</span>
         </h1>
         
-        {/* Subtitle */}
-        <p className="text-xl md:text-2xl text-purple-200 mb-8 max-w-2xl">
-          Your cosmic guide to daily insights and zodiac predictions
-        </p>
+        {/* Rotating Horoscope Messages */}
+        <RotatingHoroscopeMessage />
         
         {/* Coming Soon Badge */}
         <div className="inline-block px-8 py-4 bg-white/10 backdrop-blur-md rounded-full border border-white/20 mb-12">
