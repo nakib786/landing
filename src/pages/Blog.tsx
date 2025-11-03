@@ -1,9 +1,10 @@
-import { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
 import ZodiacLogo from '../components/ZodiacLogo'
 import HamburgerMenu from '../components/HamburgerMenu'
 import { Link } from 'react-router-dom'
+import AdSense from '../components/AdSense'
 
 function Blog() {
   // Blog posts for all 12 zodiac signs
@@ -373,29 +374,41 @@ Pisces teaches us about the power of intuition, compassion, and spiritual connec
 
           {/* Blog Posts Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {blogPosts.map((post) => (
-              <article
-                key={post.id}
-                onClick={() => setSelectedPost(post)}
-                className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/10 transition-all duration-300 animate-card-glow card-glow-hover cursor-pointer h-full"
-              >
-                <div className="mb-4">
-                  <span className="px-3 py-1 bg-purple-500/30 text-purple-200 text-sm rounded-full">
-                    {post.category}
-                  </span>
-                </div>
-                <h2 className="text-2xl font-bold text-white mb-3">
-                  {post.title}
-                </h2>
-                <p className="text-purple-200 mb-4 line-clamp-3">
-                  {post.excerpt}
-                </p>
-                <div className="flex items-center justify-end text-sm text-purple-300">
-                  <span className="text-purple-400 hover:text-purple-300 transition-colors">
-                    Read more →
-                  </span>
-                </div>
-              </article>
+            {blogPosts.map((post, index) => (
+              <React.Fragment key={post.id}>
+                <article
+                  onClick={() => setSelectedPost(post)}
+                  className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/10 transition-all duration-300 animate-card-glow card-glow-hover cursor-pointer h-full"
+                >
+                  <div className="mb-4">
+                    <span className="px-3 py-1 bg-purple-500/30 text-purple-200 text-sm rounded-full">
+                      {post.category}
+                    </span>
+                  </div>
+                  <h2 className="text-2xl font-bold text-white mb-3">
+                    {post.title}
+                  </h2>
+                  <p className="text-purple-200 mb-4 line-clamp-3">
+                    {post.excerpt}
+                  </p>
+                  <div className="flex items-center justify-end text-sm text-purple-300">
+                    <span className="text-purple-400 hover:text-purple-300 transition-colors">
+                      Read more →
+                    </span>
+                  </div>
+                </article>
+                {/* Insert AdSense ad after every 4th post */}
+                {(index + 1) % 4 === 0 && index < blogPosts.length - 1 && (
+                  <div className="md:col-span-2 lg:col-span-3">
+                    <AdSense
+                      adSlot="PLACEHOLDER_SLOT_ID"
+                      adFormat="horizontal"
+                      className="w-full"
+                      style={{ minHeight: '250px' }}
+                    />
+                  </div>
+                )}
+              </React.Fragment>
             ))}
           </div>
 
@@ -441,6 +454,16 @@ Pisces teaches us about the power of intuition, compassion, and spiritual connec
                       <div className="text-purple-100 text-sm sm:text-base md:text-lg leading-6 sm:leading-relaxed whitespace-pre-line">
                         {selectedPost.content}
                       </div>
+                    </div>
+                    
+                    {/* In-Article Ad */}
+                    <div className="my-6 sm:my-8">
+                      <AdSense
+                        adSlot="PLACEHOLDER_SLOT_ID"
+                        adFormat="horizontal"
+                        className="w-full"
+                        style={{ minHeight: '250px' }}
+                      />
                     </div>
                   </div>
                 </div>

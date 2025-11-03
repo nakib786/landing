@@ -4,6 +4,7 @@ import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
 import RotatingHoroscopeMessage from '../components/RotatingHoroscopeMessage'
 import HamburgerMenu from '../components/HamburgerMenu'
+import AdSense from '../components/AdSense'
 
 function Home() {
   return (
@@ -71,6 +72,16 @@ function Home() {
               <h3 className="text-lg font-semibold text-white mb-2">100% Free</h3>
               <p className="text-sm text-purple-200">No login, no payment required</p>
             </div>
+          </div>
+          
+          {/* AdSense Ad */}
+          <div className="max-w-4xl mx-auto mb-12 mt-8">
+            <AdSense
+              adSlot="PLACEHOLDER_SLOT_ID"
+              adFormat="horizontal"
+              className="w-full"
+              style={{ minHeight: '250px' }}
+            />
           </div>
         </main>
         
