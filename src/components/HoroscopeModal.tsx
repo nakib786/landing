@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 interface HoroscopeModalProps {
   isOpen: boolean
@@ -179,6 +179,15 @@ export default function HoroscopeModal({ isOpen, onClose, buttonPosition }: Horo
   const [showContent, setShowContent] = useState(false)
   const [isClosing, setIsClosing] = useState(false)
   const [todayDate, setTodayDate] = useState('')
+  const [hasMounted, setHasMounted] = useState(false)
+  const [isReady, setIsReady] = useState(false)
+  const wasOpenRef = useRef(false)
+
+  // Prevent flash on initial load - mark ready immediately
+  useEffect(() => {
+    setHasMounted(true)
+    setIsReady(true)
+  }, [])
 
   // Get today's date based on user's location/timezone
   useEffect(() => {
@@ -222,38 +231,52 @@ export default function HoroscopeModal({ isOpen, onClose, buttonPosition }: Horo
       // Check if user data exists in localStorage
       const savedData = localStorage.getItem('horoscopeUser')
       if (savedData) {
-        const { dateOfBirth, sign, lastVisit } = JSON.parse(savedData)
-        const today = new Date().toDateString()
-        
-        if (lastVisit === today) {
-          // Show saved horoscope
-          setDateOfBirth(dateOfBirth)
-          setSelectedSign(sign)
-          const today = new Date().toISOString().split('T')[0]
-          setHoroscope(getHoroscopeForSign(sign, today))
-          setStep('result')
+        try {
+          const parsed = JSON.parse(savedData) as { dateOfBirth?: string; sign?: string }
+          const derivedSign = parsed.sign || (parsed.dateOfBirth ? getZodiacFromDate(parsed.dateOfBirth) : '')
+          if (derivedSign) {
+            setDateOfBirth(parsed.dateOfBirth || '')
+            setSelectedSign(derivedSign)
+            const todayIso = new Date().toISOString().split('T')[0]
+            setHoroscope(getHoroscopeForSign(derivedSign, todayIso))
+            setStep('result')
+          }
+        } catch (_) {
+          // ignore parse errors and show input form
         }
       }
-      
-      // Delay content for animation
-      setTimeout(() => setShowContent(true), 500)
+
+      // Show content immediately to avoid showing the form first
+      setShowContent(true)
     } else {
-      setShowContent(false)
-      setIsClosing(true)
-      document.body.style.overflow = ''
-      
-      setTimeout(() => {
-        setStep('input')
-        setDateOfBirth('')
-        setSelectedSign('')
-        setHoroscope([])
+      // Only run closing animation if it was previously open
+      if (wasOpenRef.current) {
+        setShowContent(false)
+        setIsClosing(true)
+        document.body.style.overflow = ''
+        
+        setTimeout(() => {
+          setStep('input')
+          setDateOfBirth('')
+          setSelectedSign('')
+          setHoroscope([])
+          setIsClosing(false)
+        }, 600)
+      } else {
+        // Ensure we don't render anything visually when it has never been opened
+        setShowContent(false)
         setIsClosing(false)
-      }, 600)
+      }
     }
     
     return () => {
       document.body.style.overflow = ''
     }
+    // Track whether the modal was previously open
+  }, [isOpen])
+
+  useEffect(() => {
+    wasOpenRef.current = isOpen
   }, [isOpen])
 
   const handleClose = () => {
@@ -300,7 +323,8 @@ export default function HoroscopeModal({ isOpen, onClose, buttonPosition }: Horo
     setHoroscope([])
   }
 
-  if (!isOpen && !isClosing) return null
+  // Early return to prevent flash on initial load
+  if (!isReady || !hasMounted || (!isOpen && !isClosing)) return null
 
   // Calculate zodiac from date if provided but sign not selected
   let displaySign = selectedSign
@@ -360,7 +384,10 @@ export default function HoroscopeModal({ isOpen, onClose, buttonPosition }: Horo
           isOpen && showContent ? 'bg-black/60 backdrop-blur-sm' : 'bg-transparent backdrop-blur-none'
         }`}
         onClick={handleClose}
-        style={{ pointerEvents: isOpen || isClosing ? 'auto' : 'none' }}
+        style={{ 
+          pointerEvents: isOpen || isClosing ? 'auto' : 'none',
+          display: !isOpen && !isClosing ? 'none' : 'flex'
+        }}
       >
         <div 
           className={`relative z-10 bg-gradient-to-br ${modalGradient} rounded-3xl shadow-2xl max-w-2xl w-full max-h-[85vh] border-2 border-white/30 modal-morph flex flex-col transition-all duration-700 ${

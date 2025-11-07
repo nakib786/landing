@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import ZodiacLogo from '../components/ZodiacLogo'
 import StarField from '../components/StarField'
@@ -6,8 +6,10 @@ import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
 import RotatingHoroscopeMessage from '../components/RotatingHoroscopeMessage'
 import HamburgerMenu from '../components/HamburgerMenu'
 import HoroscopeModal from '../components/HoroscopeModal'
+import LoadingScreen from '../components/LoadingScreen'
 
 function Home() {
+  const [isLoading, setIsLoading] = useState(true)
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [isAnimating, setIsAnimating] = useState(false)
   const [buttonPosition, setButtonPosition] = useState<{ x: number; y: number; width: number; height: number } | null>(null)
@@ -41,11 +43,34 @@ function Home() {
     }, 600)
   }
 
+  // Check localStorage after loading screen completes
+  useEffect(() => {
+    if (!isLoading) {
+      // Auto-open only if a saved sign exists
+      const savedData = localStorage.getItem('horoscopeUser')
+      if (savedData) {
+        try {
+          const { sign } = JSON.parse(savedData)
+          if (sign) {
+            setIsModalOpen(true)
+          }
+        } catch (error) {
+          console.error('Error reading saved horoscope data:', error)
+        }
+      }
+    }
+  }, [isLoading])
+
   return (
     <>
-      <FluidCursorEffect minimal />
+      {/* Loading Screen */}
+      {isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}
       
-      <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-indigo-950 via-purple-900 to-pink-900">
+      {!isLoading && (
+        <>
+          <FluidCursorEffect minimal />
+          
+          <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-indigo-950 via-purple-900 to-pink-900">
         {/* Animated star field background */}
         <StarField />
       
@@ -146,12 +171,14 @@ function Home() {
         </footer>
       </div>
 
-      {/* Horoscope Modal */}
-      <HoroscopeModal 
-        isOpen={isModalOpen} 
-        onClose={handleCloseModal}
-        buttonPosition={buttonPosition}
-      />
+          {/* Horoscope Modal */}
+          <HoroscopeModal 
+            isOpen={isModalOpen} 
+            onClose={handleCloseModal}
+            buttonPosition={buttonPosition}
+          />
+        </>
+      )}
     </>
   )
 }
