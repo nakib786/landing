@@ -97,11 +97,11 @@ function Home() {
             ref={buttonRef}
             onClick={handleComingSoonClick}
             disabled={isAnimating}
-            className={`inline-block px-8 py-4 bg-white/10 backdrop-blur-md rounded-full border border-white/30 mb-8 animate-glow cursor-pointer hover:bg-white/20 hover:scale-110 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group relative overflow-hidden ${
+            className={`inline-block px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 bg-white/10 backdrop-blur-md rounded-full border border-white/30 mb-8 animate-glow cursor-pointer hover:bg-white/20 hover:scale-105 sm:hover:scale-110 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group relative overflow-hidden ${
               isAnimating ? 'magical-burst' : ''
             } ${isModalOpen ? 'opacity-0 pointer-events-none' : ''}`}
           >
-            <p className="text-2xl md:text-3xl font-semibold text-white relative z-10">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white relative z-10">
               🔮 Get Your Horoscope 🔮
             </p>
             
