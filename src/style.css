@@ -323,3 +323,223 @@
   transform: translateX(100%);
 }
 
+/* Magical Button Animations */
+@keyframes magical-burst {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  25% {
+    transform: scale(1.2);
+    filter: brightness(1.5) saturate(1.5);
+  }
+  50% {
+    transform: scale(0.95) rotate(5deg);
+    filter: brightness(2) saturate(2);
+  }
+  75% {
+    transform: scale(1.1) rotate(-5deg);
+    filter: brightness(1.5) saturate(1.5);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    filter: brightness(1);
+  }
+}
+
+@keyframes particle-burst {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--tx), var(--ty)) scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.magical-burst {
+  animation: magical-burst 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.magical-particle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(168, 85, 247, 1) 50%, rgba(236, 72, 153, 0.5) 100%);
+  animation: particle-burst 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  pointer-events: none;
+}
+
+.particle-1 {
+  top: 50%;
+  left: 50%;
+  --tx: -80px;
+  --ty: -80px;
+  animation-delay: 0s;
+}
+
+.particle-2 {
+  top: 50%;
+  left: 50%;
+  --tx: 80px;
+  --ty: -80px;
+  animation-delay: 0.05s;
+}
+
+.particle-3 {
+  top: 50%;
+  left: 50%;
+  --tx: -80px;
+  --ty: 80px;
+  animation-delay: 0.1s;
+}
+
+.particle-4 {
+  top: 50%;
+  left: 50%;
+  --tx: 80px;
+  --ty: 80px;
+  animation-delay: 0.15s;
+}
+
+.particle-5 {
+  top: 50%;
+  left: 50%;
+  --tx: -120px;
+  --ty: 0px;
+  animation-delay: 0.2s;
+}
+
+.particle-6 {
+  top: 50%;
+  left: 50%;
+  --tx: 120px;
+  --ty: 0px;
+  animation-delay: 0.25s;
+}
+
+.particle-7 {
+  top: 50%;
+  left: 50%;
+  --tx: 0px;
+  --ty: -120px;
+  animation-delay: 0.3s;
+}
+
+.particle-8 {
+  top: 50%;
+  left: 50%;
+  --tx: 0px;
+  --ty: 120px;
+  animation-delay: 0.35s;
+}
+
+.shimmer-effect {
+  animation: shimmer 2s infinite;
+}
+
+/* Horoscope Modal Animations */
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+/* Modal Morph Animations */
+@keyframes modal-expand {
+  0% {
+    transform: scale(0.05);
+    border-radius: 9999px;
+    opacity: 0.8;
+  }
+  50% {
+    border-radius: 3rem;
+    opacity: 0.95;
+  }
+  100% {
+    transform: scale(1);
+    border-radius: 1.5rem;
+    opacity: 1;
+  }
+}
+
+@keyframes modal-collapse {
+  0% {
+    transform: scale(1);
+    border-radius: 1.5rem;
+    opacity: 1;
+  }
+  50% {
+    border-radius: 3rem;
+    opacity: 0.95;
+  }
+  100% {
+    transform: scale(0.05);
+    border-radius: 9999px;
+    opacity: 0;
+  }
+}
+
+.modal-morph {
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.modal-initial {
+  transform: scale(0.05);
+  border-radius: 9999px;
+  opacity: 0;
+}
+
+.modal-expanded {
+  animation: modal-expand 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+  overflow-y: visible !important;
+}
+
+.modal-collapsed {
+  animation: modal-collapse 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+/* Custom Zodiac-Themed Scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb, rgba(255, 255, 255, 0.3)) var(--scrollbar-track, transparent);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--scrollbar-track, transparent);
+  border-radius: 10px;
+  margin: 8px 0;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb, rgba(255, 255, 255, 0.3));
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: all 0.3s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb, rgba(255, 255, 255, 0.5));
+  border: 1px solid transparent;
+  background-clip: padding-box;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+  background: var(--scrollbar-thumb, rgba(255, 255, 255, 0.7));
+}
+

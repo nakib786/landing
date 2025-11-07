@@ -3,7 +3,7 @@ import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
 import ZodiacLogo from '../components/ZodiacLogo'
 import HamburgerMenu from '../components/HamburgerMenu'
-import AdSense from '../components/AdSense'
+// import AdSense from '../components/AdSense' // Kept for future use
 
 // Import blog posts data (we'll need to share this)
 // For now, let's define it here or create a shared file
@@ -388,15 +388,7 @@ function BlogPost() {
             </div>
           </article>
 
-          {/* Bottom Banner Ad */}
-          <div className="mb-8">
-            <AdSense
-              adSlot="PLACEHOLDER_SLOT_ID"
-              adFormat="horizontal"
-              className="w-full"
-              style={{ minHeight: '250px' }}
-            />
-          </div>
+          {/* Bottom Banner Ad removed - will be added back later */}
 
           {/* Navigation */}
           <div className="flex justify-between items-center pt-8 border-t border-white/20">

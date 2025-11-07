@@ -4,7 +4,7 @@ import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
 import ZodiacLogo from '../components/ZodiacLogo'
 import HamburgerMenu from '../components/HamburgerMenu'
 import { Link } from 'react-router-dom'
-import AdSense from '../components/AdSense'
+// import AdSense from '../components/AdSense' // Kept for future use
 
 function Blog() {
   // Blog posts for all 12 zodiac signs
@@ -397,17 +397,7 @@ Pisces teaches us about the power of intuition, compassion, and spiritual connec
                     </span>
                   </div>
                 </article>
-                {/* Insert AdSense ad after every 4th post */}
-                {(index + 1) % 4 === 0 && index < blogPosts.length - 1 && (
-                  <div className="md:col-span-2 lg:col-span-3">
-                    <AdSense
-                      adSlot="PLACEHOLDER_SLOT_ID"
-                      adFormat="horizontal"
-                      className="w-full"
-                      style={{ minHeight: '250px' }}
-                    />
-                  </div>
-                )}
+                {/* AdSense ad removed - will be added back later */}
               </React.Fragment>
             ))}
           </div>
@@ -456,15 +446,7 @@ Pisces teaches us about the power of intuition, compassion, and spiritual connec
                       </div>
                     </div>
                     
-                    {/* In-Article Ad */}
-                    <div className="my-6 sm:my-8">
-                      <AdSense
-                        adSlot="PLACEHOLDER_SLOT_ID"
-                        adFormat="horizontal"
-                        className="w-full"
-                        style={{ minHeight: '250px' }}
-                      />
-                    </div>
+                    {/* In-Article Ad removed - will be added back later */}
                   </div>
                 </div>
               </div>

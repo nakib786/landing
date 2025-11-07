@@ -1,12 +1,46 @@
+import { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import ZodiacLogo from '../components/ZodiacLogo'
 import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
 import RotatingHoroscopeMessage from '../components/RotatingHoroscopeMessage'
 import HamburgerMenu from '../components/HamburgerMenu'
-import AdSense from '../components/AdSense'
+import HoroscopeModal from '../components/HoroscopeModal'
 
 function Home() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isAnimating, setIsAnimating] = useState(false)
+  const [buttonPosition, setButtonPosition] = useState<{ x: number; y: number; width: number; height: number } | null>(null)
+  const buttonRef = useRef<HTMLButtonElement>(null)
+
+  const handleComingSoonClick = () => {
+    if (buttonRef.current) {
+      const rect = buttonRef.current.getBoundingClientRect()
+      setButtonPosition({
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+      })
+    }
+    
+    setIsAnimating(true)
+    
+    // Wait for animation to complete before opening modal
+    setTimeout(() => {
+      setIsModalOpen(true)
+      setIsAnimating(false)
+    }, 1000)
+  }
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false)
+    // Reset button position after animation completes
+    setTimeout(() => {
+      setButtonPosition(null)
+    }, 600)
+  }
+
   return (
     <>
       <FluidCursorEffect minimal />
@@ -33,12 +67,38 @@ function Home() {
           {/* Rotating Horoscope Messages */}
           <RotatingHoroscopeMessage />
           
-          {/* Coming Soon Badge */}
-          <div className="inline-block px-8 py-4 bg-white/10 backdrop-blur-md rounded-full border border-white/30 mb-8 animate-glow">
-            <p className="text-2xl md:text-3xl font-semibold text-white">
-              🌟 Coming Soon 🌟
+          {/* Get Your Horoscope Button with Magical Animation */}
+          <button
+            ref={buttonRef}
+            onClick={handleComingSoonClick}
+            disabled={isAnimating}
+            className={`inline-block px-8 py-4 bg-white/10 backdrop-blur-md rounded-full border border-white/30 mb-8 animate-glow cursor-pointer hover:bg-white/20 hover:scale-110 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group relative overflow-hidden ${
+              isAnimating ? 'magical-burst' : ''
+            } ${isModalOpen ? 'opacity-0 pointer-events-none' : ''}`}
+          >
+            <p className="text-2xl md:text-3xl font-semibold text-white relative z-10">
+              🔮 Get Your Horoscope 🔮
             </p>
-          </div>
+            
+            {/* Magical particles effect */}
+            {isAnimating && (
+              <>
+                <div className="magical-particle particle-1"></div>
+                <div className="magical-particle particle-2"></div>
+                <div className="magical-particle particle-3"></div>
+                <div className="magical-particle particle-4"></div>
+                <div className="magical-particle particle-5"></div>
+                <div className="magical-particle particle-6"></div>
+                <div className="magical-particle particle-7"></div>
+                <div className="magical-particle particle-8"></div>
+              </>
+            )}
+            
+            {/* Shimmer effect on hover */}
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent shimmer-effect"></div>
+            </div>
+          </button>
           
           {/* Blog Button */}
           <Link 
@@ -73,16 +133,6 @@ function Home() {
               <p className="text-sm text-purple-200">No login, no payment required</p>
             </div>
           </div>
-          
-          {/* AdSense Ad */}
-          <div className="max-w-4xl mx-auto mb-12 mt-8">
-            <AdSense
-              adSlot="PLACEHOLDER_SLOT_ID"
-              adFormat="horizontal"
-              className="w-full"
-              style={{ minHeight: '250px' }}
-            />
-          </div>
         </main>
         
         {/* Footer */}
@@ -95,6 +145,13 @@ function Home() {
           </p>
         </footer>
       </div>
+
+      {/* Horoscope Modal */}
+      <HoroscopeModal 
+        isOpen={isModalOpen} 
+        onClose={handleCloseModal}
+        buttonPosition={buttonPosition}
+      />
     </>
   )
 }
