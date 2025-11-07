@@ -240,6 +240,12 @@ function PrivacyPolicy() {
             </div>
           </div>
         </main>
+        
+        {/* AMP Auto Ads */}
+        <amp-auto-ads 
+          type="adsense"
+          data-ad-client="ca-pub-3360285631990666">
+        </amp-auto-ads>
       </div>
     </>
   )
