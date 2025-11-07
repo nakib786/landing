@@ -88,6 +88,11 @@ function Home() {
         {/* Footer */}
         <footer className="absolute bottom-0 w-full py-6 text-center text-purple-200 text-sm z-10">
           <p>© FreeHoroscopeNow.com | Built with ❤️ for the stars</p>
+          <p className="mt-2">
+            <Link to="/privacy-policy" className="text-purple-300 hover:text-purple-200 underline transition-colors">
+              Privacy Policy
+            </Link>
+          </p>
         </footer>
       </div>
     </>
