@@ -60,7 +60,7 @@ export default function AdSense({
           minHeight: '100px',
           ...style,
         }}
-        data-ad-client="ca-pub-7571735093295420"
+        data-ad-client="ca-pub-3360285631990666"
         data-ad-slot={adSlot}
         data-ad-format={adFormat}
         data-full-width-responsive={fullWidthResponsive ? 'true' : 'false'}
