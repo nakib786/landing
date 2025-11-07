@@ -178,6 +178,38 @@ export default function HoroscopeModal({ isOpen, onClose, buttonPosition }: Horo
   const [horoscope, setHoroscope] = useState<string[]>([])
   const [showContent, setShowContent] = useState(false)
   const [isClosing, setIsClosing] = useState(false)
+  const [todayDate, setTodayDate] = useState('')
+
+  // Get today's date based on user's location/timezone
+  useEffect(() => {
+    const updateDate = () => {
+      try {
+        const now = new Date()
+        const formatter = new Intl.DateTimeFormat('en-US', {
+          weekday: 'long',
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
+        })
+        setTodayDate(formatter.format(now))
+      } catch (error) {
+        // Fallback to simple date format
+        const now = new Date()
+        setTodayDate(now.toLocaleDateString('en-US', { 
+          weekday: 'long', 
+          year: 'numeric', 
+          month: 'long', 
+          day: 'numeric' 
+        }))
+      }
+    }
+    
+    updateDate()
+    // Update date every minute to handle timezone changes
+    const interval = setInterval(updateDate, 60000)
+    return () => clearInterval(interval)
+  }, [])
 
   useEffect(() => {
     if (isOpen) {
@@ -324,37 +356,19 @@ export default function HoroscopeModal({ isOpen, onClose, buttonPosition }: Horo
 
   return (
     <div 
-      className={`fixed inset-0 z-50 flex items-start justify-center pt-8 sm:pt-12 md:pt-16 p-4 transition-all duration-500 overflow-hidden ${
-        isOpen && showContent ? 'bg-black/60 backdrop-blur-sm' : 'bg-transparent backdrop-blur-none'
-      }`}
-      onClick={handleClose}
-      style={{ pointerEvents: isOpen || isClosing ? 'auto' : 'none' }}
-    >
-      {/* Large Zodiac Background Symbol */}
-      {currentZodiac && isOpen && (
-        <div 
-          className={`absolute inset-0 flex items-center justify-center pointer-events-none z-0 transition-all duration-700 ${
-            showContent ? 'opacity-30 scale-100' : 'opacity-0 scale-50'
-          }`}
-        >
-          <div 
-            className="text-[25rem] sm:text-[35rem] md:text-[45rem] leading-none select-none text-white/30"
-            style={{
-              filter: 'blur(1px)',
-              textShadow: '0 0 150px rgba(255,255,255,0.2)',
-            }}
-          >
-            {currentZodiac.emoji}
-          </div>
-        </div>
-      )}
-      <div 
-        className={`relative z-10 bg-gradient-to-br ${modalGradient} rounded-3xl shadow-2xl max-w-2xl w-full max-h-[85vh] border-2 border-white/30 modal-morph flex flex-col transition-all duration-700 ${
-          isOpen && showContent ? 'modal-expanded' : isClosing ? 'modal-collapsed overflow-hidden' : 'modal-initial overflow-hidden'
+        className={`fixed inset-0 z-50 flex items-start justify-center pt-8 sm:pt-12 md:pt-16 p-4 transition-all duration-500 overflow-hidden ${
+          isOpen && showContent ? 'bg-black/60 backdrop-blur-sm' : 'bg-transparent backdrop-blur-none'
         }`}
-        style={getModalStyle()}
-        onClick={(e) => e.stopPropagation()}
+        onClick={handleClose}
+        style={{ pointerEvents: isOpen || isClosing ? 'auto' : 'none' }}
       >
+        <div 
+          className={`relative z-10 bg-gradient-to-br ${modalGradient} rounded-3xl shadow-2xl max-w-2xl w-full max-h-[85vh] border-2 border-white/30 modal-morph flex flex-col transition-all duration-700 ${
+            isOpen && showContent ? 'modal-expanded' : isClosing ? 'modal-collapsed overflow-hidden' : 'modal-initial overflow-hidden'
+          }`}
+          style={getModalStyle()}
+          onClick={(e) => e.stopPropagation()}
+        >
         {/* Close button */}
         <button
           onClick={handleClose}
@@ -374,6 +388,15 @@ export default function HoroscopeModal({ isOpen, onClose, buttonPosition }: Horo
               '--scrollbar-track': scrollbarColors.track,
             } as React.CSSProperties}
           >
+            {/* Today's Date */}
+            {todayDate && (
+              <div className="mb-4 text-center">
+                <p className="text-sm text-white/60 font-medium">
+                  📅 {todayDate}
+                </p>
+              </div>
+            )}
+
             <div className="text-center mb-8">
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 animate-pulse">
                 ✨ Discover Your Cosmic Path ✨
@@ -480,6 +503,15 @@ export default function HoroscopeModal({ isOpen, onClose, buttonPosition }: Horo
               '--scrollbar-track': scrollbarColors.track,
             } as React.CSSProperties}
           >
+            {/* Today's Date */}
+            {todayDate && (
+              <div className="mb-4 text-center">
+                <p className="text-sm text-white/60 font-medium">
+                  📅 {todayDate}
+                </p>
+              </div>
+            )}
+
             <div className="text-center mb-8">
               <div className="text-7xl mb-4 animate-bounce drop-shadow-2xl">
                 {currentZodiac?.emoji}
@@ -547,8 +579,8 @@ export default function HoroscopeModal({ isOpen, onClose, buttonPosition }: Horo
             </div>
           </div>
         )}
+        </div>
       </div>
-    </div>
   )
 }
 
