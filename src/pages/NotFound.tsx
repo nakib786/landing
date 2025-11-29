@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import AdSense from '../components/StarField'
 import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
 

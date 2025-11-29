@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import AdSense from '../components/AdSense'
 import ZodiacLogo from '../components/ZodiacLogo'
 import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
@@ -240,6 +241,11 @@ function PrivacyPolicy() {
             </div>
           </div>
         </main>
+
+        {/* Bottom Ad */}
+        <div className="w-full max-w-md mx-auto mt-12 pb-8">
+          <AdSense adSlot="3367554321" adFormat="rectangle" />
+        </div>
         
         {/* AMP Auto Ads */}
         <amp-auto-ads 

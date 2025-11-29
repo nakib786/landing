@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import AdSense from '../components/AdSense'
 import ZodiacLogo from '../components/ZodiacLogo'
 import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
@@ -230,7 +231,11 @@ function Home() {
 
               {/* Rich Content for AdSense/SEO */}
               <AstrologyContent />
-            </main>
+            {/* Bottom Ad */}
+            <div className="w-full mt-12 pt-8">
+              <AdSense adSlot="3367554321" adFormat="rectangle" />
+            </div>
+          </main>
 
             {/* FAQ Section - SEO Optimized for Search Engines & AI Models */}
             <section className="relative z-10 w-full max-w-4xl mx-auto px-6 pb-8 pt-8">

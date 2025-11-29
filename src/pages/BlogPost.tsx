@@ -3,7 +3,7 @@ import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
 import ZodiacLogo from '../components/ZodiacLogo'
 import HamburgerMenu from '../components/HamburgerMenu'
-// import AdSense from '../components/AdSense' // Kept for future use
+import AdSense from '../components/AdSense'
 
 // Import blog posts data (we'll need to share this)
 // For now, let's define it here or create a shared file

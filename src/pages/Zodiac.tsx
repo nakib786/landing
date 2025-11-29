@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
+import AdSense from '../components/AdSense'
 // @ts-ignore
 import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
@@ -73,6 +74,11 @@ function Zodiac() {
                         </p>
                     </header>
 
+                    {/* Top Ad */}
+                    <div className="w-full mb-8">
+                      <AdSense adSlot="7289901234" adFormat="horizontal" />
+                    </div>
+
                     {/* Zodiac Selector */}
                     <div className="mb-8 animate-fade-in">
                         <div className="bg-white/5 backdrop-blur-lg rounded-3xl border border-white/20 p-6 md:p-8 max-w-2xl mx-auto animate-glow">
@@ -90,6 +96,11 @@ function Zodiac() {
                                     </option>
                                 ))}
                             </select>
+                        </div>
+
+                        {/* Mid Rectangle Ad */}
+                        <div className="w-full max-w-md mx-auto my-12">
+                          <AdSense adSlot="1234567890" adFormat="rectangle" />
                         </div>
                     </div>
 
