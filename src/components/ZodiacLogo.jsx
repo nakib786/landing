@@ -1,7 +1,7 @@
-export default function ZodiacLogo() {
+export default function ZodiacLogo({ className = "", ...props }) {
   // 12 Zodiac symbols in Unicode
   const zodiacSymbols = ['♈', '♉', '♊', '♋', '♌', '♍', '♎', '♏', '♐', '♑', '♒', '♓'];
-  
+
   return (
     <svg
       width="220"
@@ -9,9 +9,10 @@ export default function ZodiacLogo() {
       viewBox="0 0 220 220"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="animate-rotate-slow"
+      className={`animate-rotate-slow ${className}`}
       role="img"
       aria-label="Zodiac Wheel Logo"
+      {...props}
     >
       {/* Outer cosmic circle with glow */}
       <circle
@@ -24,7 +25,7 @@ export default function ZodiacLogo() {
         opacity="0.7"
         strokeDasharray="5 3"
       />
-      
+
       {/* Middle constellation ring */}
       <circle
         cx="110"
@@ -35,7 +36,7 @@ export default function ZodiacLogo() {
         fill="none"
         opacity="0.5"
       />
-      
+
       {/* Inner mystical circle */}
       <circle
         cx="110"
@@ -46,7 +47,7 @@ export default function ZodiacLogo() {
         fill="none"
         opacity="0.6"
       />
-      
+
       {/* 12 Zodiac constellation points */}
       {[...Array(12)].map((_, i) => {
         const angle = (i * 30 - 90) * (Math.PI / 180);
@@ -73,7 +74,7 @@ export default function ZodiacLogo() {
           </g>
         );
       })}
-      
+
       {/* Zodiac symbols positioned around the circle */}
       {zodiacSymbols.map((symbol, i) => {
         const angle = (i * 30 - 90) * (Math.PI / 180);
@@ -95,7 +96,7 @@ export default function ZodiacLogo() {
           </text>
         );
       })}
-      
+
       {/* Constellation connecting lines */}
       {[...Array(12)].map((_, i) => {
         const angle1 = (i * 30 - 90) * (Math.PI / 180);
@@ -117,7 +118,7 @@ export default function ZodiacLogo() {
           />
         );
       })}
-      
+
       {/* Central sun and moon symbol */}
       <circle
         cx="110"
@@ -126,7 +127,7 @@ export default function ZodiacLogo() {
         fill="url(#centerGradient)"
         opacity="0.9"
       />
-      
+
       {/* Sun rays */}
       {[...Array(8)].map((_, i) => {
         const angle = (i * 45) * (Math.PI / 180);
@@ -148,14 +149,14 @@ export default function ZodiacLogo() {
           />
         );
       })}
-      
+
       {/* Crescent moon overlay */}
       <path
         d="M 110 85 A 20 20 0 1 1 110 135 A 15 15 0 1 0 110 85 Z"
         fill="url(#moonGradient)"
         opacity="0.8"
       />
-      
+
       {/* Small stars scattered around */}
       {[
         { x: 40, y: 50, size: 2 },
@@ -174,7 +175,7 @@ export default function ZodiacLogo() {
           opacity="0.6"
         />
       ))}
-      
+
       {/* Gradient definitions */}
       <defs>
         <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -184,43 +185,43 @@ export default function ZodiacLogo() {
           <stop offset="75%" stopColor="#C084FC" />
           <stop offset="100%" stopColor="#A78BFA" />
         </linearGradient>
-        
+
         <linearGradient id="gradient2" x1="100%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" stopColor="#A78BFA" />
           <stop offset="50%" stopColor="#F472B6" />
           <stop offset="100%" stopColor="#FCD34D" />
         </linearGradient>
-        
+
         <linearGradient id="gradient3" x1="0%" y1="100%" x2="100%" y2="0%">
           <stop offset="0%" stopColor="#FCD34D" />
           <stop offset="50%" stopColor="#EC4899" />
           <stop offset="100%" stopColor="#A78BFA" />
         </linearGradient>
-        
+
         <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#FCD34D" stopOpacity="1" />
           <stop offset="50%" stopColor="#FBBF24" stopOpacity="1" />
           <stop offset="100%" stopColor="#F59E0B" stopOpacity="1" />
         </linearGradient>
-        
+
         <linearGradient id="gradient5" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stopColor="#A78BFA" stopOpacity="0.5" />
           <stop offset="50%" stopColor="#F472B6" stopOpacity="0.5" />
           <stop offset="100%" stopColor="#FCD34D" stopOpacity="0.5" />
         </linearGradient>
-        
+
         <radialGradient id="starGradient">
           <stop offset="0%" stopColor="#FCD34D" />
           <stop offset="70%" stopColor="#F59E0B" />
           <stop offset="100%" stopColor="#FBBF24" stopOpacity="0.8" />
         </radialGradient>
-        
+
         <radialGradient id="centerGradient">
           <stop offset="0%" stopColor="#FEF3C7" />
           <stop offset="40%" stopColor="#FCD34D" />
           <stop offset="100%" stopColor="#F59E0B" />
         </radialGradient>
-        
+
         <linearGradient id="moonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#E0E7FF" />
           <stop offset="50%" stopColor="#C7D2FE" />

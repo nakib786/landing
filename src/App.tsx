@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/zodiac" element={<Zodiac />} />
+        <Route path="/zodiac/:sign" element={<Zodiac />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPost />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />

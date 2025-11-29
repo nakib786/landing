@@ -7,53 +7,172 @@ export const zodiacData = {
         modality: "Cardinal",
         rulingPlanet: "Mars",
         overview: `
-            <p>Aries, the first constellation in the zodiac wheel, embodies the raw energy of spring's awakening and new beginnings. Ruled by Mars, the planet of action and desire, Aries natives carry within them an unstoppable force that propels them forward into uncharted territories. This cardinal fire sign doesn't just wait for life to happen—they ignite it, spark it, and set the world ablaze with their passionate pursuits.</p>
-            <p>The Ram, Aries' celestial symbol, perfectly captures their essence: headstrong, courageous, and always ready to charge forward. Unlike signs that deliberate and plan, Aries operates on pure instinct and conviction. They possess an almost childlike enthusiasm for life, approaching each day as a fresh adventure waiting to unfold. This pioneering spirit makes them natural trailblazers who aren't afraid to venture where others hesitate.</p>
-            <p>What truly distinguishes Aries from other signs is their authentic, unfiltered approach to existence. They wear their hearts on their sleeves, speak their minds without pretense, and live with an honesty that can be both refreshing and startling. In a world that often values caution and calculation, Aries reminds us of the power of bold, decisive action and the magic that happens when we dare to be first.</p>
+<p>Aries, the first sign of the zodiac, marks the beginning of the astrological year with vibrant energy, courage, and unstoppable determination. Ruled by Mars, the planet associated with passion, action, and desire, Aries embodies the spirit of the warrior—restless, bold, and always ready to charge headfirst into new adventures. As a fire sign with cardinal modality, Aries thrives on initiating movement, sparking ideas, and inspiring others with their fearless energy.</p>
+<p>Symbolized by the Ram, Aries represents leadership, instinctive power, and the courage to climb mountains others would never attempt. Their mythology connects to countless tales of bravery and heroic quests, all reflecting their natural role as a pioneer. Aries is the spark of creation—the energy that pushes life forward. Their presence often feels electrifying, uplifting, and intensely alive.</p>
+<p>Aries individuals radiate enthusiasm and independence. They possess an unfiltered honesty that can be refreshing or intimidating depending on the listener. But there’s never any doubt: Aries means what they say and say what they mean. They prefer straightforwardness and dislike games, delays, or overthinking. Aries is action-oriented; they learn by doing, exploring, and taking risks. Their adventurous nature makes them exciting companions and powerful motivators.</p>
+<p>At their best, Aries are passionate leaders who inspire confidence. At their worst, they can be impulsive, impatient, or overly competitive. Yet even in their chaos, Aries carries a fiery charm. They are the zodiac’s spark plug, the ignition switch, the force that transforms ideas into movement.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Aries individuals radiate confidence that draws others like moths to a flame. Their courage isn't the absence of fear but rather the refusal to let fear dictate their choices. When faced with challenges that would make others retreat, Aries leans in, energized by the opportunity to prove themselves. This fearlessness extends beyond physical bravery into emotional and intellectual realms—they'll defend unpopular opinions, stand up for the underdog, and take creative risks that others wouldn't dare consider.</p>
-            <p>Their leadership qualities emerge naturally, not from a desire to control but from an innate ability to inspire action. Aries doesn't lead through manipulation or careful strategy; they lead by example, charging ahead with such conviction that others can't help but follow. Their enthusiasm is genuinely contagious, turning mundane tasks into exciting challenges and transforming skeptics into believers.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same fiery energy that makes Aries so dynamic can also be their Achilles' heel. Impatience runs deep in their nature—they want results yesterday and struggle with processes that require slow, methodical progress. This can lead to abandoned projects when the initial excitement wanes or hasty decisions made without considering long-term consequences.</p>
-            <p>Their directness, while refreshing, sometimes crosses into tactlessness. Aries speaks truth without sugar-coating, which can wound sensitive souls who need gentler delivery. They're learning that being right isn't always as important as being kind, and that sometimes silence serves better than brutal honesty.</p>
+<p>Aries personalities are dynamic, bold, and bursting with initiative. They are typically confident, direct, and unafraid of challenges. Their natural optimism pushes them to keep going, even when obstacles arise.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Leadership:</strong> Aries excels when taking charge. Their natural charisma and decisive nature make them natural leaders.</li>
+<li><strong>Courage:</strong> They rarely shy away from confrontation or effort. Aries is brave—sometimes fearlessly, sometimes recklessly.</li>
+<li><strong>Passion:</strong> When Aries loves something, they love it intensely. Their enthusiasm can ignite excitement in everyone around them.</li>
+<li><strong>Honesty:</strong> Aries values truth over comfort. They speak openly and expect the same from others.</li>
+<li><strong>Independence:</strong> Self-sufficient and bold, Aries trust their instincts and rarely rely on others for direction.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Impulsiveness:</strong> Aries often act before thinking. Their enthusiasm can lead to mistakes or unnecessary conflict.</li>
+<li><strong>Impatience:</strong> Waiting is torture for Aries—they want immediate action and instant results.</li>
+<li><strong>Short temper:</strong> They can flare up quickly, though they cool down just as fast.</li>
+<li><strong>Stubbornness:</strong> Once Aries believes in something, changing their mind takes effort.</li>
+<li><strong>Competitive nature:</strong> Aries likes to win and may push themselves too hard or intimidate others without meaning to.</li>
+</ul>
+<p>Aries’ emotional world is fiery and intense. They fall in love quickly, get frustrated easily, forgive fast, and bounce back from setbacks with admirable resilience.</p>
+
+
         `,
         love: `
-            <p>In matters of the heart, Aries loves with the same intensity they bring to everything else. They pursue romantic interests with passionate determination, making their affections unmistakably clear. There's no ambiguity in Aries' courtship—they don't play coy or hard to get. When they want someone, they go after them with endearing directness that can sweep partners off their feet.</p>
-            <p>Aries shows affection through action and adventure. They'll plan exciting dates, surprise their partners with spontaneous getaways, and constantly seek new experiences to share together. Physical affection comes naturally to them; they're warm, demonstrative lovers who express their feelings through touch, passionate kisses, and protective gestures.</p>
-            <p>Best matches include Leo and Sagittarius, fellow fire signs who understand their need for excitement and independence. Gemini and Aquarius also complement them well, providing intellectual stimulation and respecting their freedom.</p>
+<p>Aries in love is passionate, devoted, and unapologetically intense. They adore the thrill of pursuit and enjoy relationships that feel alive and exciting. Aries needs a partner who can match their energy and appreciate their straightforward approach.</p>
+<h3>In Love, Aries Are…</h3>
+<ul>
+<li><strong>Affectionate and fiery</strong></li>
+<li><strong>Loyal and protective</strong></li>
+<li><strong>Direct about their feelings</strong></li>
+<li><strong>Excited by adventure, spontaneity, and passion</strong></li>
+</ul>
+<p>They dislike emotional games, manipulation, or slow-moving relationships. They want honesty, action, and a connection that feels <strong>alive</strong>.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Leo:</strong> Fiery, bold, passionate, and full of excitement.</li>
+<li><strong>Sagittarius:</strong> Freedom-loving and adventurous—perfect chemistry.</li>
+<li><strong>Gemini:</strong> Fast-thinking and fun, intellectually stimulating.</li>
+<li><strong>Aquarius:</strong> Aries loves their originality and independence.</li>
+</ul>
+<h3>Challenging Matches</h3>
+<ul>
+<li><strong>Cancer:</strong> Too sensitive and cautious for Aries’ fire.</li>
+<li><strong>Capricorn:</strong> Conflicting styles—Aries wants action, Capricorn wants planning.</li>
+<li><strong>Virgo:</strong> Aries finds Virgo too critical or slow-moving.</li>
+</ul>
+<p>Still, with communication, any sign can create harmony with Aries.</p>
+
+
         `,
         career: `
-            <p>Professionally, Aries thrives in environments that reward initiative, courage, and quick decision-making. They're natural entrepreneurs, energized by the challenge of building something from nothing. Their work style is characterized by bursts of intense productivity, innovative problem-solving, and a preference for action over endless planning.</p>
-            <p>Ideal careers include entrepreneurship, emergency services, competitive sports, sales and marketing, and any pioneering field where they can be first. They lead from the front, never asking others to do what they wouldn't do themselves.</p>
+<p>Aries shines in careers requiring leadership, courage, or quick thinking. They thrive where they can make decisions and see immediate results.</p>
+<h3>Best Careers for Aries</h3>
+<ul>
+<li>Entrepreneur</li>
+<li>Military or law enforcement</li>
+<li>Athlete or coach</li>
+<li>Public speaker</li>
+<li>Emergency services</li>
+<li>Sales</li>
+<li>Politics</li>
+<li>Creative director</li>
+<li>Stunt work / performing arts</li>
+<li>Motivational careers</li>
+</ul>
+<h3>Work Style</h3>
+<p>Aries are:</p>
+<ul>
+<li>Fast decision-makers</li>
+<li>Competitive</li>
+<li>Motivated by challenges</li>
+<li>Independent workers</li>
+<li>Natural leaders</li>
+</ul>
+<p>However, they may struggle with:</p>
+<ul>
+<li>Routine tasks</li>
+<li>Slow-paced environments</li>
+<li>Excessive rules</li>
+<li>Micromanagement</li>
+</ul>
+<h3>Money Habits</h3>
+<p>Aries tends to:</p>
+<ul>
+<li>Spend boldly</li>
+<li>Invest impulsively</li>
+<li>Take financial risks</li>
+<li>Earn fast</li>
+<li>Recover fast</li>
+</ul>
+<p>They’re great at making money but need to practice long-term planning.</p>
+
+
         `,
         friendship: `
-            <p>As friends, Aries brings unmatched loyalty, infectious enthusiasm, and unwavering support. They're the friend who shows up at 3 AM when you need them, who defends you fiercely against criticism, who believes in your dreams even when you doubt yourself. Their friendship style is active and engaging—they'd rather do things together than simply talk about doing things.</p>
+<p>Aries is the friend who:</p>
+<ul>
+<li>Shows up in emergencies</li>
+<li>Brings laughter and excitement</li>
+<li>Speaks honestly</li>
+<li>Defends loved ones fiercely</li>
+<li>Pushes friends to grow</li>
+</ul>
+<p>They prefer active friendships—adventures, activities, spontaneity—not low-energy or overly emotional relationships.</p>
+
+
         `,
         health: `
-            <p>Aries' relationship with health mirrors their overall approach to life: intense, active, and sometimes reckless. They possess abundant physical energy that demands regular outlet through exercise, sports, or physical challenges. Stress affects them primarily through physical symptoms—headaches, muscle tension, and burnout from pushing themselves too hard.</p>
+<p>Aries rules the head, which means they experience:</p>
+<ul>
+<li>Stress headaches</li>
+<li>Overexertion</li>
+<li>Burnout from constant activity</li>
+</ul>
+<p>Aries benefits from:</p>
+<ul>
+<li>Regular exercise</li>
+<li>Activities that burn off energy</li>
+<li>Competitive sports</li>
+<li>Grounding routines</li>
+<li>Mindfulness for impulsive moments</li>
+</ul>
+<p>Emotionally, Aries must learn that rest isn't weakness.</p>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">🔥 Best Matches</div>
-                    <p><strong>Leo & Sagittarius:</strong> Fire sign passion creates dynamic, exciting partnerships full of adventure and mutual inspiration.</p>
-                    <p><strong>Gemini & Aquarius:</strong> Air signs provide intellectual stimulation and respect Aries' need for independence.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Leo:</strong> Fiery, bold, passionate, and full of excitement.</p>
+<p><strong>Sagittarius:</strong> Freedom-loving and adventurous—perfect chemistry.</p>
+<p><strong>Gemini:</strong> Fast-thinking and fun, intellectually stimulating.</p>
+<p><strong>Aquarius:</strong> Aries loves their originality and independence.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Cancer & Capricorn:</strong> Different paces and approaches to life create friction that requires significant compromise.</p>
+                    
+<p><strong>Cancer:</strong> Too sensitive and cautious for Aries’ fire.</p>
+<p><strong>Capricorn:</strong> Conflicting styles—Aries wants action, Capricorn wants planning.</p>
+<p><strong>Virgo:</strong> Aries finds Virgo too critical or slow-moving.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Aries represents the golden ram from Greek mythology, whose fleece became the object of Jason's legendary quest. The ram was sent by Hermes to rescue Phrixus and Helle from their murderous stepmother. This mythology perfectly encapsulates Aries' essence: the heroic rescuer, the brave protector, the creature willing to sacrifice itself for a greater purpose.</p>
+<p>Aries is symbolized by the <strong>Ram</strong>, representing strength, determination, and leadership. In mythology, the Ram is tied to the Golden Fleece, a symbol of heroism. This mirrors Aries’ identity as the zodiac’s champion—unstoppable and courageous.</p>
+
+
         `,
         summary: `
-            <p>Aries stands as the zodiac's eternal flame, reminding us that courage, authenticity, and passionate pursuit of our desires are essential ingredients for a life fully lived. Their spiritual gift to the world is the reminder that every moment offers a chance to begin again, to choose courage over comfort, to live authentically rather than safely.</p>
-        `
+<p>Aries is the bold spark that lights the world. They are passionate, honest, brave, and full of life. Their journey teaches others how to take chances, follow their instincts, and pursue life passionately. Aries reminds us that courage is the first step toward greatness.</p>
+
+        `,
     },
 
     taurus: {
@@ -64,48 +183,179 @@ export const zodiacData = {
         modality: "Fixed",
         rulingPlanet: "Venus",
         overview: `
-            <p>Taurus, the second sign of the zodiac, embodies the grounded beauty of earth awakening to spring's full bloom. Ruled by Venus, the planet of love, beauty, and material pleasure, Taurus natives possess an exquisite appreciation for life's sensory delights. This fixed earth sign doesn't rush through existence—they savor it, creating stability and beauty wherever they plant their roots.</p>
-            <p>The Bull captures their essence perfectly: strong, steady, and peaceful until provoked. Unlike impulsive fire signs, Taurus moves with deliberate intention, building their life brick by brick with patience that others can only admire.</p>
+<p>Taurus, ruled by Venus and symbolized by the Bull, is the second sign of the zodiac and the anchor of stability, comfort, and sensuality. As an Earth sign with fixed modality, Taurus grounds the chaotic energy of Aries and brings patience, persistence, and structure to the world. Known for their calm demeanor and soothing presence, Taurus individuals exude an aura of quiet strength. They move through life with a sense of purpose, valuing consistency over chaos, and steady progression over sudden leaps.</p>
+<p>Venus, the planet of love, beauty, pleasure, and values, shapes Taurus’ worldview more deeply than any other sign. Taureans naturally appreciate the finer things in life—good food, soft fabrics, nature, music, and anything that awakens the senses. Their connection to physical comfort is not superficial; it’s spiritual. Through physical pleasure and earthly beauty, Taurus connects to a sense of inner peace and stability.</p>
+<p>But beneath their serene exterior lies immense power. Like the Bull, Taurus is strong, loyal, and unmovable once committed. They are deeply protective of their loved ones, their routines, and their values. When Taurus decides to build something—whether a career, relationship, home, or personal goal—they do so with dedication and resilience. They aren’t impulsive; they are strategic and steady.</p>
+<p>Taurus may seem slow to act, but that’s because they evaluate carefully. Their patient nature allows them to avoid unnecessary risks and build long-lasting success. And once they start something, they rarely quit. Taurus energy represents endurance, grounded wisdom, and the ability to build a beautiful, meaningful life brick by brick.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Taurus individuals radiate a calm, grounding presence that makes others feel safe and secure. Their reliability is legendary—when Taurus makes a promise, you can consider it done. Their patience is truly remarkable, allowing them to pursue long-term goals that would frustrate more impulsive signs.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same steadfastness that makes Taurus so reliable can manifest as stubborn resistance to change. Once they've made up their mind or established a routine, shifting their perspective feels nearly impossible. Their love of comfort and pleasure can tip into overindulgence.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Loyal and dependable:</strong> Taurus is trustworthy and consistent. They keep promises and provide deep emotional security.</li>
+<li><strong>Patient and steady:</strong> They don’t rush into situations; they observe and move only when ready.</li>
+<li><strong>Hardworking:</strong> Few signs can match Taurus' stamina. Their persistence guarantees long-term success.</li>
+<li><strong>Sensual and affectionate:</strong> They love physical touch, comfort, and shared moments of intimacy.</li>
+<li><strong>Financially smart:</strong> Taurus has natural talent for saving, investing, and building wealth.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Stubbornness:</strong> Once Taurus forms an opinion, shifting it can feel impossible.</li>
+<li><strong>Resistance to change:</strong> They cling to routines, habits, and comfort zones.</li>
+<li><strong>Possessiveness:</strong> In love and life, Taurus craves stability, which can show up as jealousy or fear of loss.</li>
+<li><strong>Slow to act:</strong> They sometimes miss opportunities due to overthinking or comfort-seeking.</li>
+<li><strong>Indulgence:</strong> With Venus ruling them, Taurus can overdo pleasures—food, spending, or relaxation.</li>
+</ul>
+<h3>Emotional Nature</h3>
+<p>Taurus' emotions run deep but quietly. They don’t express feelings impulsively; instead, they observe, process, and speak when they feel safe. They value emotional consistency, mutual respect, and stable communication. Drama drains them; peace nourishes them.</p>
+
+
         `,
         love: `
-            <p>In love, Taurus is devoted, sensual, and deeply romantic in traditional ways. They court slowly, taking time to build trust and genuine connection before fully committing. They show affection through tangible expressions: cooking favorite meals, giving thoughtful gifts, creating beautiful spaces to share.</p>
-            <p>Best matches include Virgo and Capricorn, fellow earth signs who share their values. Cancer and Pisces also complement them beautifully, providing emotional depth and nurturing.</p>
+<p>Taurus is one of the most loyal and devoted partners in the zodiac. When they love, they love wholeheartedly and for the long term. They crave a relationship built on trust, physical touch, emotional safety, and mutual effort.</p>
+<h3>In Love, Taurus Is:</h3>
+<ul>
+<li>Slow to open up</li>
+<li>Extremely loyal</li>
+<li>Affectionate and sensual</li>
+<li>Consistent and thoughtful</li>
+<li>Protective and supportive</li>
+</ul>
+<p>They dislike unpredictability, emotional games, or unstable partners. Taurus needs reassurance, loyalty, and actions that speak louder than words.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Virgo:</strong> Both grounded, practical, and emotionally gentle.</li>
+<li><strong>Capricorn:</strong> Strong, dependable, and long-term focused.</li>
+<li><strong>Cancer:</strong> Warm, nurturing, and emotionally secure.</li>
+<li><strong>Pisces:</strong> Soft, romantic, and spiritually aligned with Taurus’ loving nature.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Leo:</strong> Power struggles and lifestyle clashes.</li>
+<li><strong>Aquarius:</strong> Taurus may find them too unpredictable.</li>
+<li><strong>Scorpio:</strong> Intense connection but emotional challenges.</li>
+<li><strong>Sagittarius:</strong> Too adventurous and inconsistent for Taurus’ comfort.</li>
+</ul>
+<p>Despite challenges, Taurus can form lasting bonds with any sign through patience and communication.</p>
+
+
         `,
         career: `
-            <p>Professionally, Taurus excels in careers that reward patience, attention to detail, and the ability to see projects through to completion. Ideal careers include finance and banking, agriculture and horticulture, culinary arts, real estate, and any craft that produces tangible, beautiful results.</p>
+<p>Taurus thrives in environments that offer routine, stability, and long-term growth. They excel in careers requiring patience, craftsmanship, beauty, or finances.</p>
+<h3>Best Careers for Taurus</h3>
+<ul>
+<li>Banking or finance</li>
+<li>Real estate</li>
+<li>Chef, baker, or culinary arts</li>
+<li>Interior design</li>
+<li>Gardening, agriculture, or nature work</li>
+<li>Art, music, and creative professions</li>
+<li>Architecture or construction</li>
+<li>Luxury goods or fashion</li>
+<li>Spa, wellness, or massage therapy</li>
+<li>Accounting or management roles</li>
+</ul>
+<h3>Work Style</h3>
+<p>Taurus brings:</p>
+<ul>
+<li>Consistency</li>
+<li>Reliability</li>
+<li>Strong work ethic</li>
+<li>Patience</li>
+<li>Sense of beauty and practicality</li>
+</ul>
+<p>They work steadily, rarely complaining, and often become the backbone of their workplace.</p>
+<h3>Money Habits</h3>
+<p>Taurus is financially wise. They:</p>
+<ul>
+<li>Save regularly</li>
+<li>Invest wisely</li>
+<li>Prefer long-term security</li>
+<li>Avoid unnecessary risks</li>
+<li>Enjoy high-quality purchases (but rarely impulsively)</li>
+</ul>
+<p>Their relationship with money reflects their desire for stability and comfort.</p>
+
+
         `,
         friendship: `
-            <p>As friends, Taurus offers unwavering loyalty, practical support, and a comforting presence. They're the friend who helps you move, who brings you soup when you're sick, who remembers your birthday every year without fail.</p>
+<p>Taurus is a loyal and warm friend who values long-lasting, meaningful connections. They prefer a small circle of trusted friends rather than large groups.</p>
+<h3>Taurus as a Friend:</h3>
+<ul>
+<li>Always supportive</li>
+<li>Offers grounding advice</li>
+<li>Reliable in emergencies</li>
+<li>Enjoys calm, cozy hangouts</li>
+<li>Prefers stability over chaos</li>
+</ul>
+<p>They make friendships feel safe, nurturing, and comfortable. Betray their trust, however, and it’s nearly impossible to regain.</p>
+
+
         `,
         health: `
-            <p>Taurus' relationship with health centers on their body's physical needs and sensory experiences. Stress affects them primarily through physical manifestations—tension in neck and shoulders, digestive issues, and weight fluctuations.</p>
+<p>Taurus rules the neck, throat, and vocal cords. They may experience:</p>
+<ul>
+<li>Neck tension</li>
+<li>Sore throats</li>
+<li>Stress-related eating habits</li>
+</ul>
+<h3>Health Tips for Taurus:</h3>
+<ul>
+<li>Light-to-moderate exercise</li>
+<li>Yoga or stretching for stiffness</li>
+<li>Balanced diet (avoid overindulgence)</li>
+<li>Time in nature</li>
+<li>Calm, sensory-based self-care</li>
+</ul>
+<p>Emotionally, Taurus benefits from practicing flexibility and letting go of rigid thinking.</p>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">🌍 Best Matches</div>
-                    <p><strong>Virgo & Capricorn:</strong> Earth sign harmony creates stable, lasting partnerships built on shared values.</p>
-                    <p><strong>Cancer & Pisces:</strong> Water signs provide emotional depth that complements Taurus' physical care.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Virgo:</strong> Both grounded, practical, and emotionally gentle.</p>
+<p><strong>Capricorn:</strong> Strong, dependable, and long-term focused.</p>
+<p><strong>Cancer:</strong> Warm, nurturing, and emotionally secure.</p>
+<p><strong>Pisces:</strong> Soft, romantic, and spiritually aligned with Taurus’ loving nature.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Leo & Aquarius:</strong> Fixed sign stubbornness and different values create ongoing tension.</p>
+                    
+<p><strong>Leo:</strong> Power struggles and lifestyle clashes.</p>
+<p><strong>Aquarius:</strong> Taurus may find them too unpredictable.</p>
+<p><strong>Scorpio:</strong> Intense connection but emotional challenges.</p>
+<p><strong>Sagittarius:</strong> Too adventurous and inconsistent for Taurus’ comfort.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Taurus represents Zeus in bull form from Greek mythology. Zeus transformed himself into a magnificent white bull to approach Europa, a Phoenician princess. This mythology beautifully encapsulates Taurus' essence: the combination of strength and gentleness, the patient approach to winning affection.</p>
+<p>The Bull symbolizes strength, fertility, stability, and determination. In ancient cultures, the bull was revered as a sacred symbol of abundance and earth’s life-giving power. Taurus’ Venusian influence connects them to beauty, art, and the natural rhythms of life.</p>
+<p>Mythological themes around Taurus often emphasize:</p>
+<ul>
+<li>Patience</li>
+<li>Loyalty</li>
+<li>Creation</li>
+<li>Sensuality</li>
+<li>Earthly wisdom</li>
+</ul>
+<p>The constellation Taurus also contains the Pleiades—stars associated with spiritual guidance and protection.</p>
+
+
         `,
         summary: `
-            <p>Taurus stands as the zodiac's anchor, reminding us that stability, beauty, and sensory pleasure are essential elements of a meaningful life. Their spiritual gift is the reminder that we are physical beings whose bodies and senses deserve honor and care.</p>
-        `
+<p>Taurus is the zodiac’s foundation—steady, reliable, and deeply connected to the beauty of life. They teach the world patience, loyalty, groundedness, and the power of consistent effort. Pure Taurus energy transforms routines into rituals, love into devotion, and dreams into something real and lasting.</p>
+
+        `,
     },
 
     gemini: {
@@ -116,48 +366,191 @@ export const zodiacData = {
         modality: "Mutable",
         rulingPlanet: "Mercury",
         overview: `
-            <p>Gemini, the third sign of the zodiac, embodies the quicksilver energy of thought, communication, and connection. Ruled by Mercury, the messenger of the gods, Gemini natives possess an insatiable curiosity and a mind that moves at lightning speed. This mutable air sign doesn't just observe life—they engage with it through endless questions, conversations, and explorations.</p>
-            <p>The Twins perfectly capture their essence: dual nature, multiple perspectives, and the ability to hold seemingly contradictory truths simultaneously.</p>
+<p>Gemini, symbolized by the Twins and ruled by Mercury, is the third sign of the zodiac and represents communication, intellect, curiosity, and adaptability. As a mutable Air sign, Gemini is in constant motion—mentally, socially, and energetically. They embody duality, meaning they perceive the world from multiple angles and are always open to new ideas, possibilities, and experiences.</p>
+<p>Gemini’s mind is their superpower. They learn quickly, speak with intelligence, and possess a youthful, vibrant energy that draws people in effortlessly. They are the storytellers of the zodiac, the communicators, the thinkers, and the observers. Gemini thrives when exploring ideas, meeting new people, sharing knowledge, and staying mentally stimulated.</p>
+<p>Behind their charm lies a deep need for freedom and variety. Routine suffocates them; they become restless if their environment lacks movement or excitement. They think fast, talk fast, and move fast, making them one of the most dynamic signs.</p>
+<p>Gemini is often misunderstood as fickle or inconsistent, but in reality, they see nuances others miss. Their dual nature is not chaotic—it’s adaptable. They navigate life through intellect and curiosity, always hungry for growth and expansion.</p>
+<p>Gemini energy is youthful, expressive, witty, social, and endlessly inquisitive. They are the zodiac’s messenger, bridging ideas, people, and worlds together.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Gemini individuals radiate intellectual energy that draws others into fascinating conversations. Their curiosity is genuinely boundless—they want to know everything about everything. Their communication skills are exceptional, and their adaptability allows them to flow with change rather than resisting it.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same mental agility that makes Gemini so fascinating can also manifest as inconsistency and superficiality. They may start dozens of projects without finishing any. Restlessness plagues Gemini, making it difficult for them to be present or satisfied with current circumstances.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Highly intelligent:</strong> Gemini analyzes and understands situations quickly.</li>
+<li><strong>Excellent communicator:</strong> They express thoughts clearly and charmingly.</li>
+<li><strong>Adaptable:</strong> Quick to adjust to new environments, people, and challenges.</li>
+<li><strong>Witty and humorous:</strong> They can turn any moment into entertainment.</li>
+<li><strong>Curious and open-minded:</strong> Gemini loves learning and discovering new things.</li>
+<li><strong>Social and friendly:</strong> They blend in anywhere and connect with everyone.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Inconsistency:</strong> Interests change quickly; follow-through can be difficult.</li>
+<li><strong>Overthinking:</strong> Their mind rarely rests, causing anxiety.</li>
+<li><strong>Restlessness:</strong> Boredom hits fast, leading to unfinished plans.</li>
+<li><strong>Indecisiveness:</strong> Seeing both sides makes decisions harder.</li>
+<li><strong>Surface-level behavior:</strong> When overstimulated, Gemini avoids deep emotions.</li>
+</ul>
+<h3>Emotional Nature</h3>
+<p>Gemini expresses emotions through conversation rather than intensity. They need intellectual connection, mental stimulation, and freedom to feel emotionally safe. They dislike possessiveness, heaviness, or emotional pressure.</p>
+
+
         `,
         love: `
-            <p>In love, Gemini seeks mental stimulation above all else. They fall for minds before bodies, captivated by wit, intelligence, and the ability to engage in endless conversation. They show affection through communication—long conversations, thoughtful texts, sharing articles and ideas.</p>
-            <p>Best matches include Libra and Aquarius, fellow air signs who share their intellectual approach. Aries and Leo also complement them well, providing excitement and confidence.</p>
+<p>Gemini in love is playful, charming, communicative, and full of surprises. They enjoy relationships that are fun, mentally stimulating, and full of variety. A Gemini partner brings excitement, laughter, and intellectual depth.</p>
+<h3>In Love, Gemini Is:</h3>
+<ul>
+<li>Flirty and expressive</li>
+<li>Loyal once committed</li>
+<li>Playful and youthful</li>
+<li>Intellectual and communicative</li>
+<li>Open to unique relationship dynamics</li>
+</ul>
+<p>They need a partner who understands that their independence is not disloyalty—Gemini simply needs mental space and variety.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Libra:</strong> Both social, intellectual, and balanced.</li>
+<li><strong>Aquarius:</strong> Shared curiosity, freedom, and mental connection.</li>
+<li><strong>Aries:</strong> Fast-paced, exciting, and adventurous pairing.</li>
+<li><strong>Leo:</strong> Fun, social, and energetic.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Virgo:</strong> Too perfectionistic, leading to friction.</li>
+<li><strong>Pisces:</strong> Emotional depth overwhelms airy Gemini.</li>
+<li><strong>Scorpio:</strong> Too intense and controlling.</li>
+<li><strong>Taurus:</strong> Slow-paced lifestyle clashes with Gemini’s dynamism.</li>
+</ul>
+<p>Still, with communication—a Gemini specialty—any relationship can flourish.</p>
+
+
         `,
         career: `
-            <p>Professionally, Gemini excels in careers offering variety, intellectual stimulation, and communication opportunities. Ideal careers include journalism and media, teaching and education, sales and marketing, writing and content creation, and technology fields.</p>
+<p>Gemini thrives in careers involving communication, technology, travel, or creativity. They need variety and intellectual stimulation.</p>
+<h3>Best Careers for Gemini</h3>
+<ul>
+<li>Journalism or media</li>
+<li>Writing or blogging</li>
+<li>Marketing or advertising</li>
+<li>Social media specialist</li>
+<li>Public relations</li>
+<li>Teaching</li>
+<li>Sales</li>
+<li>Translating or linguistics</li>
+<li>Travel industry</li>
+<li>Technology, programming, or data analytics</li>
+<li>Podcasts, YouTube, broadcasting</li>
+<li>Research and analysis</li>
+</ul>
+<h3>Work Style</h3>
+<p>Gemini excels when:</p>
+<ul>
+<li>Tasks are varied</li>
+<li>They have creative freedom</li>
+<li>They can interact with people</li>
+<li>They work at a fast pace</li>
+<li>Technology or communication is involved</li>
+</ul>
+<p>However, they may struggle with:</p>
+<ul>
+<li>Monotonous tasks</li>
+<li>Excessive rules</li>
+<li>Micromanagement</li>
+<li>Slow-working environments</li>
+</ul>
+<h3>Money Habits</h3>
+<p>Gemini tends to:</p>
+<ul>
+<li>Spend on experiences and gadgets</li>
+<li>Experiment with money-making ideas</li>
+<li>Be inconsistent with long-term saving</li>
+<li>Thrive in multiple streams of income</li>
+</ul>
+<p>They benefit from structured financial planning.</p>
+
+
         `,
         friendship: `
-            <p>As friends, Gemini brings fun, intellectual stimulation, and refreshing lightness. They're the friend who knows about the coolest new restaurant, who sends you interesting articles, who can make even mundane activities entertaining.</p>
+<p>Gemini is the friend who brings excitement, ideas, and laughter. They are social butterflies who make friends everywhere they go.</p>
+<h3>Gemini as a Friend:</h3>
+<ul>
+<li>Amazing conversationalist</li>
+<li>Connects people together</li>
+<li>Brings humor and fun</li>
+<li>Always up for spontaneous plans</li>
+<li>Shares knowledge and ideas</li>
+</ul>
+<p>They cherish friendships that allow freedom and intellectual connection.</p>
+
+
         `,
         health: `
-            <p>Gemini's relationship with health is often inconsistent. Stress affects them primarily through nervous system overload—anxiety, racing thoughts, and difficulty sleeping. Their minds never truly rest, constantly processing information.</p>
+<p>Gemini rules the arms, lungs, shoulders, and nervous system.</p>
+<h3>Possible Health Weaknesses:</h3>
+<ul>
+<li>Anxiety</li>
+<li>Restlessness</li>
+<li>Breathing issues</li>
+<li>Shoulder or arm tension</li>
+<li>Mental burnout</li>
+</ul>
+<h3>Health Tips for Gemini:</h3>
+<ul>
+<li>Meditation and breathing exercises</li>
+<li>Light exercise like dancing or walking</li>
+<li>Journaling to process thoughts</li>
+<li>Digital detox</li>
+<li>Structured routines for balance</li>
+</ul>
+<p>Gemini’s mind is constantly active, so calming practices are essential.</p>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">💨 Best Matches</div>
-                    <p><strong>Libra & Aquarius:</strong> Air sign harmony creates intellectually stimulating, socially engaging partnerships.</p>
-                    <p><strong>Aries & Leo:</strong> Fire signs provide excitement and match Gemini's playful energy.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Libra:</strong> Both social, intellectual, and balanced.</p>
+<p><strong>Aquarius:</strong> Shared curiosity, freedom, and mental connection.</p>
+<p><strong>Aries:</strong> Fast-paced, exciting, and adventurous pairing.</p>
+<p><strong>Leo:</strong> Fun, social, and energetic.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Virgo & Pisces:</strong> Different approaches to life and communication create misunderstandings.</p>
+                    
+<p><strong>Virgo:</strong> Too perfectionistic, leading to friction.</p>
+<p><strong>Pisces:</strong> Emotional depth overwhelms airy Gemini.</p>
+<p><strong>Scorpio:</strong> Too intense and controlling.</p>
+<p><strong>Taurus:</strong> Slow-paced lifestyle clashes with Gemini’s dynamism.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Gemini represents the twin brothers Castor and Pollux from Greek mythology. Despite one being mortal and one immortal, they were inseparable. This mythology beautifully encapsulates Gemini's essence: dual nature, deep connections despite differences, and the theme of communication and brotherhood.</p>
+<p>The Twins—Castor and Pollux—represent duality, companionship, and opposing forces working together. This symbolizes Gemini’s ability to understand both sides of a situation and adapt to different energies.</p>
+<p>Themes in Gemini mythology include:</p>
+<ul>
+<li>Connection</li>
+<li>Duality</li>
+<li>Communication</li>
+<li>Curiosity</li>
+<li>Brotherhood and unity</li>
+</ul>
+<p>The constellation Gemini honors both intellect and connection, showing that Gemini’s true strength lies in communication and understanding.</p>
+
+
         `,
         summary: `
-            <p>Gemini stands as the zodiac's messenger and connector, reminding us that curiosity, communication, and mental flexibility are essential tools for navigating our complex world. Their spiritual gift is the reminder that truth is multifaceted and that staying curious keeps us young.</p>
-        `
+<p>Gemini is the zodiac’s communicator—curious, adaptable, witty, and endlessly energetic. They teach the world how to stay open-minded, embrace change, and explore new ideas. Gemini’s mind is a galaxy of thoughts, creativity, and brilliant potential.</p>
+
+        `,
     },
 
     cancer: {
@@ -168,48 +561,163 @@ export const zodiacData = {
         modality: "Cardinal",
         rulingPlanet: "Moon",
         overview: `
-            <p>Cancer, the fourth sign of the zodiac, embodies the nurturing depths of emotional intelligence and intuitive wisdom. Ruled by the Moon, which governs tides, emotions, and life's rhythms, Cancer natives possess an extraordinary capacity to feel, nurture, and create safe havens. This cardinal water sign doesn't just experience emotions—they navigate by them.</p>
-            <p>The Crab perfectly captures their essence: a soft, vulnerable interior protected by a hard exterior shell.</p>
+<p>Cancer, symbolized by the Crab and ruled by the Moon, is the fourth sign of the zodiac. As a cardinal water sign, Cancer represents emotional depth, intuition, nurturing, and protective energy. Those born under Cancer are deeply connected to their emotions, the emotions of others, and the cycles of life. Like the tides governed by the Moon, Cancer’s moods ebb and flow, reflecting their profound sensitivity and intuitive nature.</p>
+<p>Cancers are natural caregivers. They instinctively seek to protect loved ones, build safe spaces, and create emotional security. They value family, home, and meaningful relationships above all else. Their inner world is rich and complex, filled with empathy, imagination, and an uncanny understanding of human emotions. They often seem to “know” what others need before it is spoken.</p>
+<p>While deeply nurturing, Cancer individuals are also highly resilient. Like the Crab, they have a protective shell, enabling them to navigate challenges with discretion and quiet strength. They may retreat inward when hurt or stressed, but their loyalty and love for family and friends are unwavering.</p>
+<p>Cancers combine intuition, sensitivity, and emotional intelligence with a practical sense of caretaking, making them deeply supportive partners, friends, and family members. Their connection to the Moon enhances their psychic awareness and emotional depth, creating a unique understanding of the world and the people around them.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Cancer individuals possess emotional intelligence that borders on psychic ability. They can walk into a room and immediately sense the emotional undercurrents. Their nurturing nature is legendary—they create environments where others can heal, grow, and feel truly safe.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same emotional depth that makes Cancer so caring can also manifest as overwhelming moodiness. Like the Moon that rules them, their emotions wax and wane dramatically. Their protective instincts can become smothering, and they struggle to let loved ones face their own challenges.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Empathetic:</strong> Cancers intuitively understand emotions and needs.</li>
+<li><strong>Loyal and protective:</strong> They form lasting bonds and defend loved ones fiercely.</li>
+<li><strong>Nurturing and caring:</strong> Natural caretakers who enjoy supporting others.</li>
+<li><strong>Imaginative:</strong> Often creative, artistic, or musically gifted.</li>
+<li><strong>Intuitive:</strong> Strong gut feelings guide their decisions and interactions.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Overly sensitive:</strong> They can internalize negative energy or criticism.</li>
+<li><strong>Moodiness:</strong> Emotional highs and lows can appear unpredictable.</li>
+<li><strong>Clinginess:</strong> Their attachment to loved ones can feel overwhelming.</li>
+<li><strong>Retreating under stress:</strong> Tendency to withdraw instead of confronting problems.</li>
+<li><strong>Pessimism:</strong> They may dwell on worst-case scenarios.</li>
+</ul>
+<p>Cancer’s emotional world is deep and fluid. They value empathy, connection, and the comfort of familiar people and spaces. They flourish in emotionally supportive environments.</p>
+
+
         `,
         love: `
-            <p>In love, Cancer is devoted, romantic, and deeply committed. They don't date casually—every relationship carries the potential for forever. They show affection through acts of service and creating emotional intimacy, cooking favorite meals, and offering emotional support that makes you feel truly seen.</p>
-            <p>Best matches include Scorpio and Pisces, fellow water signs who understand emotional depth. Taurus and Virgo also complement them well, providing stability and practical support.</p>
+<p>Cancer is a deeply loving and devoted partner. When they open their hearts, they give unwavering loyalty, warmth, and tenderness. They seek security and stability, both emotionally and in the home.</p>
+<h3>In Love, Cancer Is:</h3>
+<ul>
+<li>Tender and affectionate</li>
+<li>Loyal and protective</li>
+<li>Emotionally intuitive</li>
+<li>Thoughtful and caring</li>
+<li>Devoted to long-term bonds</li>
+</ul>
+<p>They dislike casual or unstable relationships. Trust and emotional safety are paramount for Cancer. When hurt, they may retreat, needing reassurance before opening up again.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Taurus:</strong> Stability, loyalty, and shared love for home.</li>
+<li><strong>Virgo:</strong> Caring, practical, emotionally supportive partnership.</li>
+<li><strong>Scorpio:</strong> Deep emotional connection, intense loyalty, mutual understanding.</li>
+<li><strong>Pisces:</strong> Compassionate, empathetic, and spiritually aligned.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Aries:</strong> Too impulsive or aggressive for Cancer’s sensitive nature.</li>
+<li><strong>Libra:</strong> May prioritize social interaction over emotional intimacy.</li>
+<li><strong>Sagittarius:</strong> Restless and adventurous, conflicts with Cancer’s need for security.</li>
+</ul>
+<p>With patience and communication, Cancer can create meaningful bonds with nearly any zodiac sign.</p>
+
+
         `,
         career: `
-            <p>Professionally, Cancer excels in careers that allow them to nurture, protect, or create emotional connections. Ideal careers include healthcare and nursing, counseling and therapy, hospitality and culinary arts, education, and real estate.</p>
+<p>Cancer thrives in careers where care, empathy, and intuition are valued. They excel in nurturing roles, creative pursuits, or jobs that allow them to create secure and meaningful spaces for others.</p>
+<h3>Best Careers for Cancer</h3>
+<ul>
+<li>Nursing, caregiving, or medical fields</li>
+<li>Teaching or childcare</li>
+<li>Counseling or psychology</li>
+<li>Hospitality, hotel, or restaurant management</li>
+<li>Art, music, or writing</li>
+<li>Home design, interior decorating</li>
+<li>Social work</li>
+<li>Culinary arts</li>
+<li>Human resources</li>
+</ul>
+<h3>Work Style</h3>
+<p>Cancer works best when:</p>
+<ul>
+<li>They feel emotionally supported</li>
+<li>They can nurture others</li>
+<li>Tasks have personal meaning</li>
+<li>They can work in a calm, secure environment</li>
+</ul>
+<p>Challenges include high-pressure workplaces or excessively competitive settings, which may stress Cancer emotionally.</p>
+<h3>Money Habits</h3>
+<p>Cancers are financially cautious and value long-term security:</p>
+<ul>
+<li>Save for emergencies and future needs</li>
+<li>Prefer stability over risky investments</li>
+<li>Enjoy creating a comfortable, secure home</li>
+<li>Can be generous with loved ones</li>
+</ul>
+
+
         `,
         friendship: `
-            <p>As friends, Cancer offers unwavering loyalty, emotional support, and a safe harbor in life's storms. They're the friend who remembers what you told them six months ago, who shows up with soup when you're sick.</p>
+<p>Cancers form deep, loyal, and meaningful friendships. They are the friends who listen, care, and always provide a safe space.</p>
+<h3>Cancer as a Friend:</h3>
+<ul>
+<li>Emotionally intuitive</li>
+<li>Protective and loyal</li>
+<li>Values trust and honesty</li>
+<li>Brings comfort and support</li>
+<li>Enjoys family-like friendships</li>
+</ul>
+<p>They thrive with friends who reciprocate care and respect boundaries.</p>
+
+
         `,
         health: `
-            <p>Cancer's relationship with health is deeply connected to their emotional state. Stress affects them primarily through digestive issues. Their energy patterns are closely tied to the lunar cycle and their emotional state.</p>
+<p>Cancer rules the chest, breasts, and stomach. Possible health concerns include:</p>
+<ul>
+<li>Digestive issues</li>
+<li>Stress-related ailments</li>
+<li>Emotional burnout</li>
+</ul>
+<h3>Health Tips for Cancer:</h3>
+<ul>
+<li>Mindful eating and regular, gentle exercise</li>
+<li>Meditation, yoga, or breathing practices</li>
+<li>Regular emotional check-ins</li>
+<li>Creating a calming home environment</li>
+<li>Time near water for emotional and physical balance</li>
+</ul>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">🌊 Best Matches</div>
-                    <p><strong>Scorpio & Pisces:</strong> Water sign harmony creates deeply bonded, emotionally intimate partnerships.</p>
-                    <p><strong>Taurus & Virgo:</strong> Earth signs provide stability that complements Cancer's emotional depth.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Taurus:</strong> Stability, loyalty, and shared love for home.</p>
+<p><strong>Virgo:</strong> Caring, practical, emotionally supportive partnership.</p>
+<p><strong>Scorpio:</strong> Deep emotional connection, intense loyalty, mutual understanding.</p>
+<p><strong>Pisces:</strong> Compassionate, empathetic, and spiritually aligned.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Aries & Libra:</strong> Different emotional needs and approaches create ongoing challenges.</p>
+                    
+<p><strong>Aries:</strong> Too impulsive or aggressive for Cancer’s sensitive nature.</p>
+<p><strong>Libra:</strong> May prioritize social interaction over emotional intimacy.</p>
+<p><strong>Sagittarius:</strong> Restless and adventurous, conflicts with Cancer’s need for security.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Cancer represents the crab sent by Hera to distract Hercules during his battle with the Hydra. Though crushed, Hera honored its loyalty by placing it among the stars. This mythology encapsulates Cancer's essence: fierce loyalty even in impossible odds, willingness to sacrifice for those they love.</p>
+<p>The Crab symbolizes protection, emotional resilience, and intuition. In Greek mythology, the Crab was sent by Hera to challenge Hercules during his battle with the Hydra, representing loyalty, persistence, and self-defense.</p>
+<p>The Moon’s influence highlights Cancer’s cyclical emotional nature, nurturing instincts, and connection to home, family, and the subconscious. Cancer energy reminds us of the importance of self-care, empathy, and emotional intelligence.</p>
+
+
         `,
         summary: `
-            <p>Cancer stands as the zodiac's heart, reminding us that emotional depth, nurturing care, and the creation of safe spaces are essential human needs and profound gifts. Their spiritual gift is the reminder that we all need places where we can let down our guards and simply be.</p>
-        `
+<p>Cancer is the zodiac’s emotional heart—sensitive, loyal, nurturing, and intuitive. They teach the world about empathy, the power of home and family, and the strength found in emotional resilience. With Cancer, love and care are not just given—they are deeply felt and profoundly transformative.</p>
+
+        `,
     },
 
     leo: {
@@ -220,48 +728,163 @@ export const zodiacData = {
         modality: "Fixed",
         rulingPlanet: "Sun",
         overview: `
-            <p>Leo, the fifth sign of the zodiac, embodies the radiant warmth and creative power of the Sun at its peak. Ruled by the Sun itself—the center of our solar system and source of all life—Leo natives carry within them an inner light that naturally draws others into their orbit. This fixed fire sign doesn't just shine; they illuminate, inspire, and warm everyone fortunate enough to bask in their glow.</p>
-            <p>The Lion perfectly captures their essence: regal, confident, and commanding respect through sheer presence.</p>
+<p>Leo, symbolized by the Lion and ruled by the Sun, is the fifth sign of the zodiac. As a fixed fire sign, Leo embodies leadership, creativity, confidence, and bold expression. Leos are natural-born leaders, commanding attention effortlessly with their charisma, optimism, and vibrant energy. They thrive in the spotlight, whether at work, in social settings, or in personal projects, and they radiate warmth and enthusiasm to those around them.</p>
+<p>The Sun, Leo’s ruling planet, fuels their vitality, sense of self, and creative expression. This solar influence encourages Leos to shine authentically, pursue their passions, and inspire others through their confidence and determination. Like the Sun, they are life-giving, protective, and radiant—often drawing people toward them without trying.</p>
+<p>Leos are deeply loyal, courageous, and generous, yet they also crave recognition and admiration. Their fixed fire energy provides determination, endurance, and an unwavering commitment to personal goals and loved ones. Leos possess a creative heart, whether it expresses through art, performance, leadership, or problem-solving, and they value authenticity and integrity above all.</p>
+<p>While Leos love attention, they are not superficial. Their charm stems from genuine warmth, enthusiasm, and a desire to uplift others. In relationships, friendships, and work, Leo inspires loyalty and admiration, creating a magnetic aura that few can resist.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Leo individuals radiate confidence and warmth that makes others feel special and valued. Their generosity is legendary—they give freely of their time, resources, and energy. Their creativity and dramatic flair make life more colorful and exciting.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same confidence that makes Leo so magnetic can manifest as arrogance or excessive pride. They may struggle to admit mistakes or accept criticism. Their need for attention and admiration can become exhausting for others.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Confident and bold:</strong> Leos are self-assured and radiate charisma.</li>
+<li><strong>Generous and warm-hearted:</strong> They enjoy giving and sharing with others.</li>
+<li><strong>Creative and passionate:</strong> Natural talent in arts, leadership, and innovation.</li>
+<li><strong>Loyal and protective:</strong> Fiercely committed to friends and loved ones.</li>
+<li><strong>Inspiring:</strong> Encourages others to be their best selves.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Pride and stubbornness:</strong> Can resist advice or admit mistakes.</li>
+<li><strong>Attention-seeking:</strong> Needs recognition; may become frustrated if overlooked.</li>
+<li><strong>Domineering tendencies:</strong> Strong personality can feel overwhelming to some.</li>
+<li><strong>Impulsiveness:</strong> Quick to act without considering consequences.</li>
+<li><strong>Sensitivity to criticism:</strong> May take feedback personally.</li>
+</ul>
+<p>Leo’s personality is fiery, optimistic, and commanding. They enjoy adventure, self-expression, and pursuing ambitious goals. While independent, they value loyalty, admiration, and meaningful connections.</p>
+
+
         `,
         love: `
-            <p>In love, Leo is passionate, romantic, and devoted. They approach relationships with dramatic flair, creating grand romantic gestures and memorable dates. They show affection through grand gestures and constant appreciation, showering partners with compliments and gifts.</p>
-            <p>Best matches include Aries and Sagittarius, fellow fire signs who match their passion. Gemini and Libra also complement them well, providing intellectual stimulation and social grace.</p>
+<p>Leo in love is passionate, romantic, and fiercely loyal. They approach relationships with intensity and enthusiasm, seeking a partner who appreciates their warmth, charm, and playful energy.</p>
+<h3>In Love, Leo Is:</h3>
+<ul>
+<li>Affectionate and attentive</li>
+<li>Loyal and protective</li>
+<li>Romantic and expressive</li>
+<li>Confident and charismatic</li>
+<li>Excited by adventure and passion</li>
+</ul>
+<p>They dislike lack of appreciation, dishonesty, or emotional neglect. Leo thrives in relationships that are passionate, celebratory, and mutually supportive.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Aries:</strong> Energetic, adventurous, and mutual admiration.</li>
+<li><strong>Sagittarius:</strong> Fun-loving, freedom-oriented, and playful.</li>
+<li><strong>Gemini:</strong> Intellectual stimulation and lively conversations.</li>
+<li><strong>Libra:</strong> Harmonious, charming, and affectionate.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Scorpio:</strong> Intense emotions may lead to clashes.</li>
+<li><strong>Taurus:</strong> Stubbornness and differing pace of life can conflict.</li>
+<li><strong>Capricorn:</strong> Practicality versus Leo’s expressive nature.</li>
+</ul>
+<p>When Leo and partner communicate openly and embrace mutual admiration, love flourishes.</p>
+
+
         `,
         career: `
-            <p>Professionally, Leo excels in careers that allow them to lead, create, or perform. Ideal careers include entertainment and performing arts, leadership and management positions, creative fields like design and fashion, and entrepreneurship.</p>
+<p>Leo thrives in leadership roles, creative industries, and positions requiring confidence and public presence. They excel when given recognition and opportunities to showcase their talents.</p>
+<h3>Best Careers for Leo</h3>
+<ul>
+<li>Leadership positions: CEO, manager, or director</li>
+<li>Performing arts: Actor, dancer, musician</li>
+<li>Creative roles: Writer, designer, artist</li>
+<li>Public speaking: Motivational speaker, teacher</li>
+<li>Politics or advocacy</li>
+<li>Event planning or hospitality</li>
+<li>Fashion and style industries</li>
+<li>Entrepreneurship</li>
+</ul>
+<h3>Work Style</h3>
+<p>Leos are:</p>
+<ul>
+<li>Confident decision-makers</li>
+<li>Natural leaders</li>
+<li>Creative problem solvers</li>
+<li>Motivated by recognition and praise</li>
+<li>Enthusiastic team members or solo performers</li>
+</ul>
+<p>Challenges may include impatience with slow processes, criticism, or lack of acknowledgment.</p>
+<h3>Money Habits</h3>
+<p>Leos are generous with wealth and enjoy comfort:</p>
+<ul>
+<li>Spend on luxury, experiences, and gifts</li>
+<li>Invest creatively and with calculated risk</li>
+<li>Appreciate status symbols and quality items</li>
+<li>Need balance between generosity and savings</li>
+</ul>
+
+
         `,
         friendship: `
-            <p>As friends, Leo brings loyalty, generosity, and unforgettable experiences. They're the friend who plans amazing adventures, who celebrates your successes as enthusiastically as their own, who defends you fiercely.</p>
+<p>Leos are loyal, fun, and uplifting friends. Their warmth draws others toward them, and they thrive in social environments.</p>
+<h3>Leo as a Friend:</h3>
+<ul>
+<li>Supportive and protective</li>
+<li>Loyal and dependable</li>
+<li>Energetic and enthusiastic</li>
+<li>Generous with time and resources</li>
+<li>Encourages and inspires friends</li>
+</ul>
+<p>They value honesty and loyalty in friendships and dislike betrayal or manipulation.</p>
+
+
         `,
         health: `
-            <p>Leo's relationship with health is closely tied to their vitality and need to feel strong. Stress affects them primarily through their heart and cardiovascular system. Their energy patterns are generally consistent and strong, like the sun they're ruled by.</p>
+<p>Leo rules the heart, spine, and upper back. Potential health concerns include:</p>
+<ul>
+<li>Stress-related heart issues</li>
+<li>Back or spinal strain</li>
+<li>Overexertion from high activity</li>
+</ul>
+<h3>Health Tips for Leo:</h3>
+<ul>
+<li>Regular exercise, especially cardiovascular</li>
+<li>Yoga or stretching to support spine</li>
+<li>Adequate rest to prevent burnout</li>
+<li>Healthy diet for heart health</li>
+<li>Mindful stress management</li>
+</ul>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">🔥 Best Matches</div>
-                    <p><strong>Aries & Sagittarius:</strong> Fire sign passion creates dynamic, exciting partnerships full of adventure.</p>
-                    <p><strong>Gemini & Libra:</strong> Air signs provide intellectual stimulation and social engagement.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Aries:</strong> Energetic, adventurous, and mutual admiration.</p>
+<p><strong>Sagittarius:</strong> Fun-loving, freedom-oriented, and playful.</p>
+<p><strong>Gemini:</strong> Intellectual stimulation and lively conversations.</p>
+<p><strong>Libra:</strong> Harmonious, charming, and affectionate.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Taurus & Scorpio:</strong> Fixed sign power struggles create ongoing tension.</p>
+                    
+<p><strong>Scorpio:</strong> Intense emotions may lead to clashes.</p>
+<p><strong>Taurus:</strong> Stubbornness and differing pace of life can conflict.</p>
+<p><strong>Capricorn:</strong> Practicality versus Leo’s expressive nature.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Leo represents the Nemean Lion from Greek mythology, a fearsome beast with impenetrable golden fur. Hercules strangled the lion and wore its pelt as armor. This mythology encapsulates Leo's essence: the combination of strength and invulnerability, regal nature that commands respect.</p>
+<p>The Lion symbolizes courage, strength, leadership, and royalty. In mythology, Leo is linked to the Nemean Lion defeated by Hercules, representing bravery, resilience, and triumph over obstacles.</p>
+<p>Leos are inspired by Sun energy: radiant, life-giving, and vibrant. Their mythology highlights courage, pride, leadership, and protection, reminding them to shine while remaining generous and loyal.</p>
+
+
         `,
         summary: `
-            <p>Leo stands as the zodiac's radiant heart, reminding us that claiming our power, expressing our creativity, and shining our light are essential expressions of our divine nature. Their spiritual gift is the reminder that we are all meant to shine.</p>
-        `
+<p>Leo is the zodiac’s radiant leader—confident, creative, loyal, and passionate. They teach the world to shine, embrace individuality, and lead with warmth and courage. Leo inspires admiration and loyalty, showing that strength comes from authenticity and generosity.</p>
+
+        `,
     },
 
     virgo: {
@@ -272,48 +895,173 @@ export const zodiacData = {
         modality: "Mutable",
         rulingPlanet: "Mercury",
         overview: `
-            <p>Virgo, the sixth sign of the zodiac, embodies the perfection of harvest time when careful tending yields abundant results. Ruled by Mercury, the planet of communication and analysis, Virgo natives possess extraordinary attention to detail and a deep desire to be of service. This mutable earth sign doesn't just observe the world—they refine it, improve it, and help it function more efficiently.</p>
-            <p>The Virgin represents purity of purpose and dedication to perfecting one's craft.</p>
+<p>Virgo, symbolized by the Maiden and ruled by Mercury, is the sixth sign of the zodiac. As a mutable Earth sign, Virgo embodies precision, practicality, analytical thinking, and service to others. Virgos are grounded, detail-oriented, and naturally inclined to observe patterns and improve systems. They are the caretakers of the zodiac, often seeking to make life more organized, efficient, and harmonious for themselves and those around them.</p>
+<p>Mercury, the planet of communication and intellect, shapes Virgo’s meticulous, analytical, and precise nature. Virgos excel at problem-solving, planning, and paying attention to details that others might overlook. Their approach to life is methodical, yet flexible, allowing them to adapt while maintaining structure and order.</p>
+<p>Virgos are thoughtful, observant, and often quietly modest. They prefer careful preparation over impulsive action and excel in environments that value precision, organization, and intelligence. While their attention to detail may appear critical, it often comes from a genuine desire to help, improve, and support.</p>
+<p>Virgos are deeply committed to self-improvement, health, and personal growth. They are reliable, diligent, and capable of creating stability and efficiency in their personal, professional, and social lives. Their earthy energy anchors the zodiac, bringing practicality, clarity, and a sense of service to the chaotic world around them.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Virgo individuals possess analytical abilities that border on genius. They can break down complex problems into manageable components and develop practical solutions. Their dedication to service and helping others is genuine and profound.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same analytical mind that makes Virgo so capable can manifest as excessive criticism. They notice every flaw and may struggle to see the forest for the trees. Their perfectionism can become paralyzing.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Analytical and intelligent:</strong> Virgo can solve problems logically and efficiently.</li>
+<li><strong>Reliable and responsible:</strong> Their consistency and dependability are highly valued.</li>
+<li><strong>Detail-oriented:</strong> They notice subtleties others miss.</li>
+<li><strong>Practical and grounded:</strong> Virgo finds solutions that work in real life.</li>
+<li><strong>Helpful and service-oriented:</strong> They enjoy supporting others and improving systems.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Overcritical:</strong> Virgos may be harsh on themselves and others.</li>
+<li><strong>Perfectionist tendencies:</strong> They can struggle with accepting imperfection.</li>
+<li><strong>Worry-prone:</strong> Overthinking and anxiety can be common.</li>
+<li><strong>Reserved or shy:</strong> They may struggle to express emotions openly.</li>
+<li><strong>Overworking:</strong> Virgo can prioritize duty over self-care.</li>
+</ul>
+<p>Virgos thrive when in structured, purposeful environments where their skills and precision are appreciated. They may need reminders to relax and embrace imperfection.</p>
+
+
         `,
         love: `
-            <p>In love, Virgo is devoted, thoughtful, and practical. They show love through acts of service—doing laundry, fixing things, helping with projects. They approach relationships carefully, analyzing compatibility before fully committing.</p>
-            <p>Best matches include Taurus and Capricorn, fellow earth signs who share their values. Cancer and Scorpio also complement them well, providing emotional depth and loyalty.</p>
+<p>Virgo is devoted, loyal, and practical in relationships. They prefer stable, reliable, and intellectually stimulating partners. While not overly demonstrative initially, they show love through consistent care, thoughtful gestures, and attentive support.</p>
+<h3>In Love, Virgo Is:</h3>
+<ul>
+<li>Patient and loyal</li>
+<li>Thoughtful and considerate</li>
+<li>Analytical and communicative</li>
+<li>Supportive and nurturing</li>
+<li>Cautious but committed</li>
+</ul>
+<p>Virgos dislike emotional drama, impulsive decisions, or lack of reliability. They value honesty, practicality, and intellectual connection in love.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Taurus:</strong> Grounded, reliable, and values harmony.</li>
+<li><strong>Capricorn:</strong> Practical, ambitious, and emotionally steady.</li>
+<li><strong>Cancer:</strong> Caring, empathetic, and mutually supportive.</li>
+<li><strong>Scorpio:</strong> Loyal, deep connection, shared values.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Gemini:</strong> Too scattered or flighty.</li>
+<li><strong>Sagittarius:</strong> Too restless or adventurous.</li>
+<li><strong>Leo:</strong> Pride and ego may clash with Virgo’s practicality.</li>
+</ul>
+<p>With communication and patience, Virgo can form deep and lasting bonds with almost any sign.</p>
+
+
         `,
         career: `
-            <p>Professionally, Virgo excels in careers requiring precision, analysis, and attention to detail. Ideal careers include healthcare and medicine, editing and quality control, accounting and data analysis, nutrition and wellness, and research and science.</p>
+<p>Virgo excels in roles requiring precision, problem-solving, organization, and service. They thrive in workplaces where attention to detail and efficiency are valued.</p>
+<h3>Best Careers for Virgo</h3>
+<ul>
+<li>Healthcare: nurse, doctor, dietitian</li>
+<li>Research or scientific analysis</li>
+<li>Editing, writing, publishing</li>
+<li>Accounting, finance, or bookkeeping</li>
+<li>Teaching, tutoring, or coaching</li>
+<li>Administration or project management</li>
+<li>Nutrition, fitness, or wellness coaching</li>
+<li>Technology or software development</li>
+<li>Environmental or agricultural work</li>
+</ul>
+<h3>Work Style</h3>
+<p>Virgos are:</p>
+<ul>
+<li>Methodical and detail-oriented</li>
+<li>Efficient and organized</li>
+<li>Analytical and problem-solving</li>
+<li>Reliable and responsible</li>
+<li>Focused on perfection and results</li>
+</ul>
+<p>They may struggle with overly chaotic environments or vague instructions.</p>
+<h3>Money Habits</h3>
+<p>Virgo is practical and cautious with money:</p>
+<ul>
+<li>Budget-conscious and responsible</li>
+<li>Prefers saving for security</li>
+<li>Invests thoughtfully and carefully</li>
+<li>Avoids impulsive spending</li>
+<li>Enjoys useful, high-quality purchases</li>
+</ul>
+
+
         `,
         friendship: `
-            <p>As friends, Virgo offers practical support, thoughtful advice, and reliable presence. They're the friend who helps you move, who proofreads your resume, who researches solutions to your problems.</p>
+<p>Virgo values reliability, honesty, and thoughtfulness in friends. They are loyal companions who offer practical help, guidance, and emotional support.</p>
+<h3>Virgo as a Friend:</h3>
+<ul>
+<li>Trustworthy and dependable</li>
+<li>Thoughtful and attentive</li>
+<li>Provides solutions and advice</li>
+<li>Prefers meaningful over superficial friendships</li>
+<li>Often quietly supportive</li>
+</ul>
+<p>Virgos may need friends to appreciate their subtle acts of care and recognize their loyalty.</p>
+
+
         `,
         health: `
-            <p>Virgo's relationship with health is often characterized by awareness and sometimes anxiety. Stress affects them primarily through digestive issues. They're naturally interested in wellness, nutrition, and preventive care.</p>
+<p>Virgo rules the digestive system, intestines, and spleen. Potential health concerns include:</p>
+<ul>
+<li>Digestive issues</li>
+<li>Stress-related ailments</li>
+<li>Overworking and fatigue</li>
+</ul>
+<h3>Health Tips for Virgo:</h3>
+<ul>
+<li>Balanced diet and mindful eating</li>
+<li>Regular exercise (yoga, walking, light cardio)</li>
+<li>Stress management through meditation or journaling</li>
+<li>Prioritize rest and relaxation</li>
+<li>Avoid overanalyzing health concerns</li>
+</ul>
+<p>Virgos benefit from routines that balance work, rest, and emotional well-being.</p>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">🌍 Best Matches</div>
-                    <p><strong>Taurus & Capricorn:</strong> Earth sign harmony creates stable, productive partnerships.</p>
-                    <p><strong>Cancer & Scorpio:</strong> Water signs provide emotional depth that balances Virgo's practicality.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Taurus:</strong> Grounded, reliable, and values harmony.</p>
+<p><strong>Capricorn:</strong> Practical, ambitious, and emotionally steady.</p>
+<p><strong>Cancer:</strong> Caring, empathetic, and mutually supportive.</p>
+<p><strong>Scorpio:</strong> Loyal, deep connection, shared values.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Sagittarius & Gemini:</strong> Different approaches to order and spontaneity create friction.</p>
+                    
+<p><strong>Gemini:</strong> Too scattered or flighty.</p>
+<p><strong>Sagittarius:</strong> Too restless or adventurous.</p>
+<p><strong>Leo:</strong> Pride and ego may clash with Virgo’s practicality.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Virgo represents Astraea, the goddess of justice and innocence, who was the last immortal to leave Earth at the end of the Golden Age. This mythology encapsulates Virgo's essence: commitment to purity and justice, hope for human improvement.</p>
+<p>The Maiden represents purity, wisdom, and service. In mythology, Virgo is associated with Demeter, goddess of the harvest, symbolizing nurturing, care, and attention to detail. Virgo embodies practicality, precision, and the pursuit of perfection through diligence.</p>
+<p>Themes include:</p>
+<ul>
+<li>Service and helping others</li>
+<li>Attention to detail and knowledge</li>
+<li>Purity, order, and self-discipline</li>
+<li>Analytical and practical wisdom</li>
+</ul>
+<p>Virgo energy reminds us to value diligence, thoughtfulness, and meticulous care in all aspects of life.</p>
+
+
         `,
         summary: `
-            <p>Virgo stands as the zodiac's perfectionist and healer, reminding us that excellence matters, that details count, and that true service comes from doing things right. Their spiritual gift is the reminder that we honor life by doing our best.</p>
-        `
+<p>Virgo is the zodiac’s healer and organizer—analytical, loyal, practical, and deeply caring. They teach the world the value of service, attention to detail, and consistent effort. Virgo’s presence brings order, stability, and thoughtful insight to an otherwise chaotic world, showing that careful attention and patience create lasting success and harmony.</p>
+
+        `,
     },
 
     libra: {
@@ -324,48 +1072,169 @@ export const zodiacData = {
         modality: "Cardinal",
         rulingPlanet: "Venus",
         overview: `
-            <p>Libra, the seventh sign of the zodiac, embodies the elegant balance of autumn's equinox when day and night achieve perfect harmony. Ruled by Venus, the planet of love, beauty, and relationships, Libra natives possess an extraordinary ability to see all sides of every situation and create harmony where there was discord.</p>
-            <p>The Scales perfectly capture their essence: the constant weighing of options, the search for equilibrium, the commitment to fairness and justice.</p>
+<p>Libra, symbolized by the Scales and ruled by Venus, is the seventh sign of the zodiac. As a cardinal air sign, Libra represents harmony, beauty, diplomacy, and social connection. Libras are natural peacemakers, seeking fairness, justice, and equilibrium in their relationships and surroundings. Their sense of aesthetics, charm, and tact allows them to navigate social environments gracefully and cultivate meaningful connections.</p>
+<p>Venus, Libra’s ruling planet, enhances their appreciation for beauty, art, love, and pleasure. Libras have a refined sense of style, an eye for elegance, and a natural ability to create harmony in any setting. Whether decorating a home, coordinating events, or negotiating conflicts, Libra brings diplomacy, taste, and fairness to the table.</p>
+<p>Libra’s dual nature, symbolized by the Scales, allows them to see both sides of any issue, making them excellent mediators and collaborators. They seek balance in life, relationships, and work, often prioritizing harmony over personal preference. Libras are social, charming, and communicative, thriving when they can engage with others and cultivate cooperation.</p>
+<p>While Libras can struggle with indecision or people-pleasing, their natural grace, fairness, and intelligence allow them to build strong networks, relationships, and reputations. They inspire cooperation and create beauty, demonstrating that balance and diplomacy are powerful forces in life.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Libra individuals possess diplomatic skills that can defuse the most volatile situations. They have an innate ability to understand different perspectives and find language that bridges divides. Their appreciation for beauty and aesthetics is profound and sophisticated.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same ability to see all sides that makes Libra so diplomatic can manifest as chronic indecisiveness. They may struggle to make even simple choices. Their desire for harmony can lead to people-pleasing and conflict avoidance.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Diplomatic and fair:</strong> Libra seeks justice and mediates conflicts.</li>
+<li><strong>Charming and sociable:</strong> Natural charisma makes them likable and approachable.</li>
+<li><strong>Balanced and thoughtful:</strong> Weighs options carefully, striving for harmony.</li>
+<li><strong>Appreciates beauty:</strong> Values art, aesthetics, and elegance.</li>
+<li><strong>Cooperative:</strong> Works well in teams and fosters collaboration.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Indecisive:</strong> Struggles to choose between options, fearing imbalance.</li>
+<li><strong>People-pleasing:</strong> Can prioritize others’ happiness over their own.</li>
+<li><strong>Avoids confrontation:</strong> May suppress emotions to maintain peace.</li>
+<li><strong>Superficial tendencies:</strong> Focus on appearances can overlook depth.</li>
+<li><strong>Dependent on validation:</strong> Seeks approval from others.</li>
+</ul>
+<p>Libras thrive in environments where their diplomatic skills, social charm, and appreciation for beauty are valued. They often need reminders to assert themselves and make confident decisions.</p>
+
+
         `,
         love: `
-            <p>In love, Libra is romantic, devoted, and partnership-oriented. They're natural romantics who believe in true love and soulmates. They show affection through creating beauty and harmony in the relationship, planning romantic dinners and giving thoughtful gifts.</p>
-            <p>Best matches include Gemini and Aquarius, fellow air signs who share their intellectual approach. Leo and Sagittarius also complement them well, providing confidence and adventure.</p>
+<p>Libra is romantic, affectionate, and values partnership. Relationships are central to their sense of identity, and they seek love that is harmonious, supportive, and mutually respectful.</p>
+<h3>In Love, Libra Is:</h3>
+<ul>
+<li>Romantic and charming</li>
+<li>Loyal and devoted</li>
+<li>Thoughtful and considerate</li>
+<li>Seeks emotional and intellectual connection</li>
+<li>Values fairness and mutual respect</li>
+</ul>
+<p>They dislike conflict, dishonesty, and imbalance. Libra flourishes in relationships where harmony, communication, and appreciation are present.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Gemini:</strong> Intellectual stimulation and shared sociability.</li>
+<li><strong>Leo:</strong> Warm, passionate, and complementary energies.</li>
+<li><strong>Sagittarius:</strong> Fun-loving, adventurous, and inspiring.</li>
+<li><strong>Aquarius:</strong> Intellectually stimulating, values freedom and fairness.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Cancer:</strong> Emotional depth may conflict with Libra’s social focus.</li>
+<li><strong>Capricorn:</strong> Practicality may clash with Libra’s desire for harmony.</li>
+<li><strong>Aries:</strong> Impulsiveness may upset Libra’s balance.</li>
+</ul>
+<p>With communication and compromise, Libra can build strong, lasting, and balanced relationships.</p>
+
+
         `,
         career: `
-            <p>Professionally, Libra excels in careers requiring diplomacy, aesthetic sense, or working with people. Ideal careers include law and mediation, design and aesthetics, human resources and counseling, and public relations and diplomacy.</p>
+<p>Libra thrives in careers that involve diplomacy, aesthetics, communication, and teamwork. They excel in environments where fairness, beauty, and collaboration are valued.</p>
+<h3>Best Careers for Libra</h3>
+<ul>
+<li>Diplomacy, mediation, or law</li>
+<li>Art, design, or fashion</li>
+<li>Interior decorating or event planning</li>
+<li>Public relations or marketing</li>
+<li>Counseling or human resources</li>
+<li>Writing, journalism, or social media</li>
+<li>Politics or advocacy</li>
+</ul>
+<h3>Work Style</h3>
+<p>Libras are:</p>
+<ul>
+<li>Diplomatic and tactful</li>
+<li>Skilled at collaboration</li>
+<li>Creative and aesthetic-minded</li>
+<li>Observant and balanced</li>
+<li>Focused on fairness and harmony</li>
+</ul>
+<p>Challenges include environments that are overly competitive, chaotic, or lacking collaboration.</p>
+<h3>Money Habits</h3>
+<p>Libras appreciate comfort, beauty, and quality:</p>
+<ul>
+<li>Spend on experiences and aesthetic items</li>
+<li>Enjoy luxury or fine craftsmanship</li>
+<li>Seek financial balance and stability</li>
+<li>Avoid impulsive purchases if decision-making is careful</li>
+</ul>
+
+
         `,
         friendship: `
-            <p>As friends, Libra brings charm, social grace, and genuine interest in others' wellbeing. They're the friend who introduces you to interesting people, who plans beautiful gatherings, who can smooth over social awkwardness.</p>
+<p>Libras are sociable, supportive, and loyal friends who thrive in harmonious social environments.</p>
+<h3>Libra as a Friend:</h3>
+<ul>
+<li>Diplomatic and fair-minded</li>
+<li>Loyal and trustworthy</li>
+<li>Offers support and advice</li>
+<li>Values shared experiences and communication</li>
+<li>Enjoys socializing and connecting people</li>
+</ul>
+<p>They prefer friendships that are mutually beneficial, supportive, and peaceful.</p>
+
+
         `,
         health: `
-            <p>Libra's relationship with health is often influenced by their social life and need for balance. Stress affects them primarily through their kidneys and lower back. They're motivated by aesthetics—they want to look good and feel attractive.</p>
+<p>Libra rules the kidneys, lower back, and skin. Potential health concerns include:</p>
+<ul>
+<li>Kidney-related issues</li>
+<li>Back pain</li>
+<li>Stress or anxiety from indecision</li>
+</ul>
+<h3>Health Tips for Libra:</h3>
+<ul>
+<li>Balanced diet and hydration</li>
+<li>Regular exercise for flexibility and balance</li>
+<li>Meditation and relaxation for stress management</li>
+<li>Yoga or Pilates to strengthen the back</li>
+<li>Avoid overindulgence in luxuries</li>
+</ul>
+<p>Libras thrive when their physical, mental, and emotional lives are in equilibrium.</p>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">💨 Best Matches</div>
-                    <p><strong>Gemini & Aquarius:</strong> Air sign harmony creates intellectually stimulating, balanced partnerships.</p>
-                    <p><strong>Leo & Sagittarius:</strong> Fire signs provide excitement and confidence that Libra finds attractive.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Gemini:</strong> Intellectual stimulation and shared sociability.</p>
+<p><strong>Leo:</strong> Warm, passionate, and complementary energies.</p>
+<p><strong>Sagittarius:</strong> Fun-loving, adventurous, and inspiring.</p>
+<p><strong>Aquarius:</strong> Intellectually stimulating, values freedom and fairness.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Cancer & Capricorn:</strong> Different emotional needs and approaches create challenges.</p>
+                    
+<p><strong>Cancer:</strong> Emotional depth may conflict with Libra’s social focus.</p>
+<p><strong>Capricorn:</strong> Practicality may clash with Libra’s desire for harmony.</p>
+<p><strong>Aries:</strong> Impulsiveness may upset Libra’s balance.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Libra represents the scales of justice, uniquely being the only zodiac constellation represented by an inanimate object. These are the scales held by Astraea, the goddess of justice. This represents the importance of balance, fairness, and just judgment.</p>
+<p>The Scales symbolize justice, balance, and fairness. Libra is often associated with Themis, Greek goddess of law and order, embodying impartiality and fairness. Their mythology emphasizes harmony, diplomacy, and the pursuit of justice, reminding Libras to seek balance in life, love, and relationships.</p>
+<p>Themes include:</p>
+<ul>
+<li>Balance and fairness</li>
+<li>Diplomacy and mediation</li>
+<li>Beauty, aesthetics, and harmony</li>
+<li>Partnership and cooperation</li>
+</ul>
+
+
         `,
         summary: `
-            <p>Libra stands as the zodiac's diplomat and artist, reminding us that harmony, beauty, and fair treatment aren't luxuries but necessities for civilized society. Their spiritual gift is the reminder that we're all connected and that fairness benefits everyone.</p>
-        `
+<p>Libra is the zodiac’s diplomat—charming, balanced, fair, and social. They teach the world the value of cooperation, aesthetics, and harmonious relationships. Libra’s presence brings beauty, justice, and diplomacy, showing that peace and connection are essential to personal and collective success.</p>
+
+        `,
     },
 
     scorpio: {
@@ -374,50 +1243,173 @@ export const zodiacData = {
         dates: "October 23 - November 21",
         element: "Water",
         modality: "Fixed",
-        rulingPlanet: "Pluto/Mars",
+        rulingPlanet: "Pluto",
         overview: `
-            <p>Scorpio, the eighth sign of the zodiac, embodies the transformative power of death and rebirth, diving into life's deepest mysteries with fearless intensity. Ruled by both Pluto, planet of transformation, and Mars, planet of action, Scorpio natives possess extraordinary emotional depth and the courage to explore what others fear.</p>
-            <p>The Scorpion captures one aspect of their essence: protective, powerful, and potentially dangerous when threatened.</p>
+<p>Scorpio, symbolized by the Scorpion and ruled by Pluto (and traditionally Mars), is the eighth sign of the zodiac. As a fixed water sign, Scorpio embodies intensity, transformation, passion, and deep emotional insight. Scorpios are known for their magnetic presence, unwavering focus, and ability to navigate complex emotional and psychological landscapes. They possess a natural capacity for resilience, regeneration, and uncovering hidden truths.</p>
+<p>Pluto, the planet of transformation, power, and rebirth, grants Scorpio a profound sense of insight and emotional depth. Scorpios are unafraid of life’s darker or more challenging aspects—they face fear, vulnerability, and secrets with courage. Mars’ traditional influence adds determination, passion, and assertive energy, creating a combination of emotional intensity and unstoppable willpower.</p>
+<p>Scorpio is the zodiac’s investigator, strategist, and emotional alchemist. Their penetrating gaze and intuitive understanding allow them to sense underlying motives, hidden feelings, and deeper truths. They are drawn to intense experiences, personal growth, and situations that demand courage and transformation. Their loyalty is fierce, their love profound, and their presence unforgettable.</p>
+<p>Though often misunderstood as secretive or controlling, Scorpio’s intensity is a gift—they teach depth, emotional honesty, and resilience. Scorpio energy transforms, purifies, and regenerates, making them one of the most powerful signs of the zodiac.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Scorpio individuals possess emotional depth and intensity that allows them to understand human nature at profound levels. They see through pretense instantly, sensing hidden motivations and unspoken truths. Their loyalty and devotion are absolute.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same intensity that makes Scorpio so powerful can manifest as obsession and inability to let go. Their need for control can become problematic, and jealousy and possessiveness can poison their relationships.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Passionate and intense:</strong> Scorpio invests fully in life, relationships, and goals.</li>
+<li><strong>Loyal and protective:</strong> Fiercely committed to loved ones.</li>
+<li><strong>Resourceful and determined:</strong> Can overcome obstacles with strategy and perseverance.</li>
+<li><strong>Intuitive and insightful:</strong> Perceives hidden motives and emotional truths.</li>
+<li><strong>Transformative:</strong> Ability to grow from challenges and guide others through change.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Jealousy and possessiveness:</strong> Deep emotional attachment can create conflict.</li>
+<li><strong>Secretive tendencies:</strong> Scorpio may withhold information or feelings.</li>
+<li><strong>Intensity:</strong> Emotional depth can be overwhelming for some.</li>
+<li><strong>Control issues:</strong> Desire for influence or perfection may cause tension.</li>
+<li><strong>Resentment:</strong> Scorpios can hold grudges if trust is broken.</li>
+</ul>
+<p>Their emotional world is profound, intense, and highly sensitive. Scorpios thrive when trust, honesty, and emotional authenticity are present.</p>
+
+
         `,
         love: `
-            <p>In love, Scorpio is passionate, intense, and all-in. They don't do casual relationships—every connection carries the potential for soul-deep bonding. They show affection through unwavering loyalty, emotional intimacy, and passionate physical connection.</p>
-            <p>Best matches include Cancer and Pisces, fellow water signs who understand emotional depth. Virgo and Capricorn also complement them well, providing stability and loyalty.</p>
+<p>Scorpio is passionate, loyal, and intensely connected in relationships. They seek deep emotional bonds and meaningful intimacy. Love for a Scorpio is all-consuming, transformative, and enduring.</p>
+<h3>In Love, Scorpio Is:</h3>
+<ul>
+<li>Deeply loyal and committed</li>
+<li>Passionate and magnetic</li>
+<li>Emotionally intuitive and understanding</li>
+<li>Protective and nurturing</li>
+<li>Intense and transformative</li>
+</ul>
+<p>They dislike superficiality, betrayal, or emotional dishonesty. A Scorpio partner craves authenticity, depth, and shared intensity.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Cancer:</strong> Mutual emotional depth and loyalty.</li>
+<li><strong>Pisces:</strong> Spiritual, intuitive, and emotionally aligned.</li>
+<li><strong>Virgo:</strong> Practical, supportive, and balanced with Scorpio’s intensity.</li>
+<li><strong>Capricorn:</strong> Ambitious, loyal, and stable partnership.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Leo:</strong> Clashes of intensity and pride.</li>
+<li><strong>Aquarius:</strong> Emotional detachment may frustrate Scorpio.</li>
+<li><strong>Gemini:</strong> Inconsistency may conflict with Scorpio’s desire for depth.</li>
+</ul>
+<p>With trust, patience, and communication, Scorpio builds unbreakable bonds.</p>
+
+
         `,
         career: `
-            <p>Professionally, Scorpio excels in careers requiring depth, investigation, or transformation. Ideal careers include psychology and therapy, investigation and research, surgery and crisis medicine, and finance and strategy.</p>
+<p>Scorpio excels in careers that involve investigation, research, psychology, strategy, or transformation. They thrive in roles requiring focus, intensity, and problem-solving.</p>
+<h3>Best Careers for Scorpio</h3>
+<ul>
+<li>Psychology, therapy, or counseling</li>
+<li>Investigation, law enforcement, or intelligence</li>
+<li>Research and analysis</li>
+<li>Finance, investments, or banking</li>
+<li>Surgery or medical professions</li>
+<li>Occult or metaphysical work</li>
+<li>Strategy, management, or leadership</li>
+<li>Writing, journalism, or investigative reporting</li>
+</ul>
+<h3>Work Style</h3>
+<p>Scorpios are:</p>
+<ul>
+<li>Determined and focused</li>
+<li>Analytical and strategic</li>
+<li>Independent but team-oriented when necessary</li>
+<li>Passionate and intense</li>
+<li>Highly intuitive and resourceful</li>
+</ul>
+<p>Challenges arise in superficial work, routine environments, or when authority conflicts with independence.</p>
+<h3>Money Habits</h3>
+<p>Scorpio is strategic and resourceful with finances:</p>
+<ul>
+<li>Careful investments</li>
+<li>Risk-taking with informed decisions</li>
+<li>Value-driven spending</li>
+<li>Financial privacy</li>
+<li>Long-term planning and wealth accumulation</li>
+</ul>
+
+
         `,
         friendship: `
-            <p>As friends, Scorpio offers unwavering loyalty, profound understanding, and the willingness to go to depths others fear. They're the friend who will help you face your darkest moments, who keeps your secrets absolutely.</p>
+<p>Scorpio forms deep, loyal, and meaningful friendships. Their connections are often transformative, offering trust, honesty, and emotional understanding.</p>
+<h3>Scorpio as a Friend:</h3>
+<ul>
+<li>Loyal and trustworthy</li>
+<li>Emotionally intuitive</li>
+<li>Offers honest feedback</li>
+<li>Protective of friends</li>
+<li>Values depth over superficiality</li>
+</ul>
+<p>They thrive in friendships built on trust, loyalty, and mutual respect.</p>
+
+
         `,
         health: `
-            <p>Scorpio's relationship with health is often characterized by extremes and their connection to regeneration. Stress affects them primarily through their reproductive system and elimination organs. They possess remarkable healing abilities.</p>
+<p>Scorpio rules the reproductive organs, excretory system, and pelvic region. Possible health concerns include:</p>
+<ul>
+<li>Reproductive or urinary issues</li>
+<li>Emotional stress manifesting physically</li>
+<li>High-intensity workouts causing strain</li>
+</ul>
+<h3>Health Tips for Scorpio:</h3>
+<ul>
+<li>Stress management through meditation or yoga</li>
+<li>Balanced exercise to channel intensity</li>
+<li>Mind-body practices like martial arts or swimming</li>
+<li>Emotional release through journaling or therapy</li>
+<li>Balanced diet to maintain physical and emotional wellness</li>
+</ul>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">🌊 Best Matches</div>
-                    <p><strong>Cancer & Pisces:</strong> Water sign harmony creates deeply bonded, transformative partnerships.</p>
-                    <p><strong>Virgo & Capricorn:</strong> Earth signs provide stability that grounds Scorpio's intensity.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Cancer:</strong> Mutual emotional depth and loyalty.</p>
+<p><strong>Pisces:</strong> Spiritual, intuitive, and emotionally aligned.</p>
+<p><strong>Virgo:</strong> Practical, supportive, and balanced with Scorpio’s intensity.</p>
+<p><strong>Capricorn:</strong> Ambitious, loyal, and stable partnership.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Leo & Aquarius:</strong> Power struggles and different approaches create ongoing tension.</p>
+                    
+<p><strong>Leo:</strong> Clashes of intensity and pride.</p>
+<p><strong>Aquarius:</strong> Emotional detachment may frustrate Scorpio.</p>
+<p><strong>Gemini:</strong> Inconsistency may conflict with Scorpio’s desire for depth.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Scorpio represents the scorpion sent by Gaia to kill Orion, the great hunter. The scorpion succeeded, and both were placed in the sky on opposite sides. This mythology encapsulates Scorpio's essence: the power to bring down even the mightiest, connection to death and transformation.</p>
+<p>The Scorpion symbolizes transformation, protection, and emotional intensity. In mythology, the Scorpion is linked to the story of Orion, representing vengeance, courage, and the cycles of life and death. Scorpio’s energy is about rebirth, resilience, and emotional mastery.</p>
+<p>Themes include:</p>
+<ul>
+<li>Transformation and renewal</li>
+<li>Emotional depth and intuition</li>
+<li>Loyalty and protective instincts</li>
+<li>Courage and resilience</li>
+</ul>
+<p>Scorpio energy teaches the importance of facing fears, embracing change, and developing emotional depth.</p>
+
+
         `,
         summary: `
-            <p>Scorpio stands as the zodiac's transformer and truth-seeker, reminding us that real power comes from facing our shadows and that transformation requires death of the old self. Their spiritual gift is the reminder that we must die to be reborn.</p>
-        `
+<p>Scorpio is the zodiac’s transformer—intense, intuitive, loyal, and powerful. They teach the world about emotional honesty, resilience, and transformation. Scorpio’s presence is magnetic and unforgettable, showing that true power comes from embracing depth, authenticity, and inner strength.</p>
+
+        `,
     },
 
     sagittarius: {
@@ -428,48 +1420,172 @@ export const zodiacData = {
         modality: "Mutable",
         rulingPlanet: "Jupiter",
         overview: `
-            <p>Sagittarius, the ninth sign of the zodiac, embodies the adventurous spirit of the eternal seeker, always reaching for higher truths and broader horizons. Ruled by Jupiter, the planet of expansion, wisdom, and abundance, Sagittarius natives possess an insatiable hunger for knowledge, experience, and meaning. This mutable fire sign doesn't just live life—they explore it, question it, and seek to understand its deepest truths.</p>
-            <p>The Archer perfectly captures their essence: always aiming higher, shooting for distant targets, seeking what lies beyond the horizon.</p>
+<p>Sagittarius, symbolized by the Archer and ruled by Jupiter, is the ninth sign of the zodiac. As a mutable fire sign, Sagittarius embodies exploration, optimism, freedom, and philosophical thinking. Sagittarians are naturally adventurous, curious, and enthusiastic, always seeking new experiences, knowledge, and personal growth. Their energy is expansive, inspiring others to embrace life with optimism and courage.</p>
+<p>Jupiter, the planet of expansion, wisdom, and luck, amplifies Sagittarius’ adventurous spirit. Sagittarians are visionaries who seek meaning in life, constantly exploring cultures, ideas, philosophies, and spiritual truths. Their love for travel, exploration, and learning is as natural as breathing, and they thrive when given freedom and opportunity to expand their horizons.</p>
+<p>Sagittarius is independent, optimistic, and honest. They are known for their candidness, enthusiasm, and infectious positivity. Their adventurous nature and philosophical outlook make them exciting companions, inspiring others to embrace curiosity, take risks, and see the bigger picture. Sagittarius energy is all about growth, exploration, and embracing life’s possibilities.</p>
+<p>While Sagittarians can sometimes be tactless or restless, their optimism, adventurous spirit, and love for truth make them magnetic, inspiring, and endlessly fascinating. Sagittarius embodies freedom, wisdom, and the eternal pursuit of meaning.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Sagittarius individuals radiate optimism and enthusiasm that's genuinely contagious. They possess philosophical minds that seek meaning and truth in everything. Their honesty is refreshing, though sometimes brutally direct. They're natural teachers and students, always learning and sharing wisdom.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same love of freedom that makes Sagittarius so adventurous can manifest as commitment-phobia and restlessness. Their honesty can cross into tactlessness, and their optimism can become unrealistic. They may struggle with follow-through, starting many adventures but finishing few.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Optimistic and adventurous:</strong> Always seeking new experiences and perspectives.</li>
+<li><strong>Independent:</strong> Values freedom and self-expression.</li>
+<li><strong>Honest and direct:</strong> Speaks the truth, often with humor and wit.</li>
+<li><strong>Philosophical and curious:</strong> Loves learning, exploring ideas, and expanding knowledge.</li>
+<li><strong>Energetic and enthusiastic:</strong> Brings excitement and motivation to others.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Restless and impulsive:</strong> May struggle with routine or commitment.</li>
+<li><strong>Tactless:</strong> Honesty can sometimes come across as blunt.</li>
+<li><strong>Overcommitted:</strong> Can take on too many projects at once.</li>
+<li><strong>Avoidant of emotional depth:</strong> Prefers freedom over heavy emotional discussions.</li>
+<li><strong>Inconsistent:</strong> Interest may shift quickly from one idea or goal to another.</li>
+</ul>
+<p>Sagittarius thrives in environments that offer exploration, freedom, learning, and variety. They need opportunities to grow, travel, and expand both mentally and physically.</p>
+
+
         `,
         love: `
-            <p>In love, Sagittarius seeks adventure, growth, and intellectual connection. They need partners who can match their enthusiasm for life and won't try to cage their free spirit. They show affection through shared adventures, philosophical discussions, and encouraging their partner's growth.</p>
-            <p>Best matches include Aries and Leo, fellow fire signs who share their adventurous spirit. Gemini and Aquarius also complement them well, providing intellectual stimulation and respecting their freedom.</p>
+<p>Sagittarius approaches love with enthusiasm, optimism, and a desire for adventure. They seek partners who share their love for freedom, exploration, and philosophical thinking.</p>
+<h3>In Love, Sagittarius Is:</h3>
+<ul>
+<li>Fun-loving and playful</li>
+<li>Honest and direct</li>
+<li>Adventurous and spontaneous</li>
+<li>Loyal once committed</li>
+<li>Inspiring and uplifting</li>
+</ul>
+<p>They dislike jealousy, restriction, and emotional games. Sagittarians need partners who respect independence and share their sense of adventure.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Aries:</strong> Energetic, adventurous, and mutually stimulating.</li>
+<li><strong>Leo:</strong> Fun, warm, and inspiring connection.</li>
+<li><strong>Libra:</strong> Intellectual stimulation and shared enthusiasm for life.</li>
+<li><strong>Aquarius:</strong> Freedom-loving, curious, and idealistic.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Taurus:</strong> Practical, grounded, and slower-paced may frustrate Sagittarius.</li>
+<li><strong>Cancer:</strong> Emotional depth and attachment may clash with Sagittarius’ need for freedom.</li>
+<li><strong>Virgo:</strong> Routine-oriented Virgo may feel restricted by Sagittarius’ adventurous spirit.</li>
+</ul>
+<p>With communication and compromise, Sagittarius can create vibrant, fulfilling relationships.</p>
+
+
         `,
         career: `
-            <p>Professionally, Sagittarius excels in careers offering variety, learning opportunities, and the chance to explore. Ideal careers include teaching and education, travel and tourism, publishing and writing, philosophy and religion, and international business.</p>
+<p>Sagittarius thrives in careers involving exploration, learning, communication, or leadership. They excel in roles that allow them to travel, teach, or inspire others.</p>
+<h3>Best Careers for Sagittarius</h3>
+<ul>
+<li>Travel industry or tourism</li>
+<li>Education, teaching, or research</li>
+<li>Writing, journalism, or blogging</li>
+<li>Philosophy, religion, or spiritual guidance</li>
+<li>Public speaking, motivational coaching</li>
+<li>Outdoor or adventure-related professions</li>
+<li>Entrepreneurship or leadership roles</li>
+<li>Marketing, media, or communications</li>
+</ul>
+<h3>Work Style</h3>
+<p>Sagittarius is:</p>
+<ul>
+<li>Independent and self-motivated</li>
+<li>Energetic and enthusiastic</li>
+<li>Visionary and forward-thinking</li>
+<li>Skilled at inspiring others</li>
+<li>Prefers variety and freedom in tasks</li>
+</ul>
+<p>They may struggle in rigid, repetitive, or highly restrictive work environments.</p>
+<h3>Money Habits</h3>
+<p>Sagittarius tends to be generous and spontaneous:</p>
+<ul>
+<li>Enjoys travel, experiences, and learning</li>
+<li>May overspend on adventure or entertainment</li>
+<li>Prefers freedom over strict budgeting</li>
+<li>Learns financial responsibility through experience</li>
+</ul>
+<p>With careful planning, Sagittarius can balance generosity with stability.</p>
+
+
         `,
         friendship: `
-            <p>As friends, Sagittarius brings adventure, optimism, and philosophical depth. They're the friend who suggests spontaneous road trips, who introduces you to new ideas and cultures, who makes you laugh with their honest observations.</p>
+<p>Sagittarius is a loyal, adventurous, and fun-loving friend. They bring excitement, humor, and inspiration to social groups.</p>
+<h3>Sagittarius as a Friend:</h3>
+<ul>
+<li>Energetic and playful</li>
+<li>Honest and uplifting</li>
+<li>Loyal and supportive</li>
+<li>Loves group adventures and activities</li>
+<li>Encourages personal growth and exploration</li>
+</ul>
+<p>They thrive in friendships that allow freedom, spontaneity, and shared experiences.</p>
+
+
         `,
         health: `
-            <p>Sagittarius' relationship with health is generally positive—they're naturally active and optimistic. Stress affects them through their hips and thighs. They benefit from outdoor activities and sports that combine physical challenge with adventure.</p>
+<p>Sagittarius rules the hips, thighs, and liver. Potential health concerns include:</p>
+<ul>
+<li>Overexertion or injuries from physical activity</li>
+<li>Liver or metabolic issues</li>
+<li>Restlessness leading to burnout</li>
+</ul>
+<h3>Health Tips for Sagittarius:</h3>
+<ul>
+<li>Regular exercise and outdoor activities</li>
+<li>Balanced diet and moderation in indulgences</li>
+<li>Stress-relief activities like meditation, yoga, or travel</li>
+<li>Adequate rest to recharge energy</li>
+<li>Mindful adventure planning to avoid overcommitment</li>
+</ul>
+<p>Sagittarius thrives when physically active, mentally stimulated, and emotionally free.</p>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">🔥 Best Matches</div>
-                    <p><strong>Aries & Leo:</strong> Fire sign energy creates exciting, growth-oriented partnerships full of adventure.</p>
-                    <p><strong>Gemini & Aquarius:</strong> Air signs provide intellectual stimulation and share their love of freedom.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Aries:</strong> Energetic, adventurous, and mutually stimulating.</p>
+<p><strong>Leo:</strong> Fun, warm, and inspiring connection.</p>
+<p><strong>Libra:</strong> Intellectual stimulation and shared enthusiasm for life.</p>
+<p><strong>Aquarius:</strong> Freedom-loving, curious, and idealistic.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Virgo & Pisces:</strong> Different approaches to life and truth create misunderstandings.</p>
+                    
+<p><strong>Taurus:</strong> Practical, grounded, and slower-paced may frustrate Sagittarius.</p>
+<p><strong>Cancer:</strong> Emotional depth and attachment may clash with Sagittarius’ need for freedom.</p>
+<p><strong>Virgo:</strong> Routine-oriented Virgo may feel restricted by Sagittarius’ adventurous spirit.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Sagittarius represents Chiron, the wise centaur who was a teacher to heroes. Unlike other centaurs known for wildness, Chiron was civilized, wise, and skilled in medicine and archery. This mythology encapsulates Sagittarius' essence: the combination of animal instinct and higher wisdom, the eternal teacher and student.</p>
+<p>The Archer symbolizes direction, focus, and the pursuit of higher knowledge. In mythology, Sagittarius is linked to Chiron, the wise centaur and healer, representing teaching, exploration, and guiding others. This connection highlights Sagittarians’ love for wisdom, adventure, and higher understanding.</p>
+<p>Themes include:</p>
+<ul>
+<li>Adventure and exploration</li>
+<li>Freedom and independence</li>
+<li>Wisdom and philosophical thinking</li>
+<li>Optimism and inspiration</li>
+</ul>
+<p>Sagittarius energy inspires curiosity, courage, and the pursuit of truth and meaning.</p>
+
+
         `,
         summary: `
-            <p>Sagittarius stands as the zodiac's philosopher and adventurer, reminding us that life is meant to be explored, that truth is worth seeking, and that freedom is essential to the human spirit. Their spiritual gift is the reminder that we grow through exploration and that wisdom comes from experience.</p>
-        `
+<p>Sagittarius is the zodiac’s eternal seeker—adventurous, optimistic, and philosophical. They teach the world about freedom, exploration, and the joy of learning. With Sagittarius, life is a journey of discovery, growth, and boundless possibility.</p>
+
+        `,
     },
 
     capricorn: {
@@ -480,48 +1596,173 @@ export const zodiacData = {
         modality: "Cardinal",
         rulingPlanet: "Saturn",
         overview: `
-            <p>Capricorn, the tenth sign of the zodiac, embodies the determined climb toward achievement and mastery. Ruled by Saturn, the planet of discipline, structure, and time, Capricorn natives possess extraordinary patience, ambition, and the ability to build lasting legacies. This cardinal earth sign doesn't just dream of success—they create detailed plans and work tirelessly to manifest their visions.</p>
-            <p>The Mountain Goat perfectly captures their essence: steadily climbing toward the peak, sure-footed even on treacherous terrain, always moving upward.</p>
+<p>Capricorn, symbolized by the Mountain Goat and ruled by Saturn, is the tenth sign of the zodiac. As a cardinal earth sign, Capricorn embodies ambition, discipline, responsibility, and practicality. Capricorns are driven by long-term goals, striving for success through determination, patience, and careful planning. They value structure, stability, and achievement, often becoming the backbone of any organization or project they commit to.</p>
+<p>Saturn, Capricorn’s ruling planet, instills discipline, focus, and respect for tradition. Capricorns understand the value of hard work, patience, and perseverance, often building success brick by brick over time. Their approach is methodical, practical, and grounded, allowing them to overcome obstacles and reach their goals with precision.</p>
+<p>Capricorn is ambitious, dependable, and highly responsible. They often take on leadership roles naturally, guiding others with practical insight and authority. Though they may appear serious or reserved, Capricorns possess dry humor, loyalty, and deep emotional intelligence. Their grounded approach allows them to navigate challenges, inspire confidence, and achieve long-lasting success.</p>
+<p>While Capricorns may struggle with rigidity, workaholism, or excessive caution, their persistence, wisdom, and strategic thinking make them a force to be reckoned with. Capricorn energy embodies discipline, ambition, responsibility, and the enduring pursuit of excellence.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Capricorn individuals possess remarkable discipline and work ethic. They're natural strategists who can see the long game and make sacrifices now for future rewards. Their ambition is matched by their practicality—they set realistic goals and achieve them through consistent effort. They're responsible, reliable, and take their commitments seriously.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same ambition that drives Capricorn can manifest as workaholism and difficulty relaxing. They may become overly serious, forgetting to enjoy life's pleasures. Their high standards can make them judgmental of themselves and others. They struggle to show vulnerability, fearing it will be seen as weakness.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Disciplined and responsible:</strong> Capricorn thrives on structure and commitment.</li>
+<li><strong>Ambitious and goal-oriented:</strong> Naturally driven to succeed.</li>
+<li><strong>Practical and grounded:</strong> Makes decisions based on logic and reality.</li>
+<li><strong>Reliable and loyal:</strong> Dependable in relationships and work.</li>
+<li><strong>Patient and strategic:</strong> Builds success slowly but surely.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Pessimism or rigidity:</strong> Can focus too much on limitations.</li>
+<li><strong>Workaholic tendencies:</strong> May neglect personal life for goals.</li>
+<li><strong>Reserved nature:</strong> Can appear distant or unemotional.</li>
+<li><strong>Overly cautious:</strong> May avoid risks that could bring growth.</li>
+<li><strong>Difficulty expressing emotions:</strong> Struggles with vulnerability.</li>
+</ul>
+<p>Capricorns thrive when their ambition is balanced with self-care, relationships, and flexibility. Their determination allows them to achieve remarkable success over time.</p>
+
+
         `,
         love: `
-            <p>In love, Capricorn is loyal, committed, and traditional. They approach relationships seriously, looking for partners who share their values and life goals. They show affection through providing stability, working toward shared goals, and demonstrating their commitment through actions rather than words.</p>
-            <p>Best matches include Taurus and Virgo, fellow earth signs who share their practical approach. Cancer and Pisces also complement them well, providing emotional warmth that softens Capricorn's serious nature.</p>
+<p>Capricorn is loyal, devoted, and values stability in love. They approach relationships with seriousness, commitment, and long-term planning, preferring depth over fleeting romance.</p>
+<h3>In Love, Capricorn Is:</h3>
+<ul>
+<li>Loyal and dependable</li>
+<li>Responsible and protective</li>
+<li>Thoughtful and patient</li>
+<li>Values long-term security</li>
+<li>Ambitious and supportive</li>
+</ul>
+<p>They dislike irresponsibility, impulsiveness, or dishonesty. Capricorns seek partners who share their values, ambition, and desire for a stable, supportive life together.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Taurus:</strong> Grounded, dependable, and shares Capricorn’s practicality.</li>
+<li><strong>Virgo:</strong> Thoughtful, reliable, and mutually supportive.</li>
+<li><strong>Scorpio:</strong> Loyal, intense, and emotionally aligned.</li>
+<li><strong>Pisces:</strong> Compassionate, nurturing, and balancing Capricorn’s ambition.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Aries:</strong> Impulsive, adventurous energy may clash with Capricorn’s caution.</li>
+<li><strong>Gemini:</strong> Inconsistent or flighty tendencies frustrate Capricorn.</li>
+<li><strong>Leo:</strong> Strong ego may conflict with Capricorn’s steady approach.</li>
+</ul>
+<p>With patience and mutual understanding, Capricorn builds lasting, meaningful, and loyal relationships.</p>
+
+
         `,
         career: `
-            <p>Professionally, Capricorn excels in careers requiring long-term planning, discipline, and leadership. Ideal careers include business and management, finance and banking, architecture and engineering, government and politics, and any field where they can build something lasting.</p>
+<p>Capricorn thrives in careers requiring structure, discipline, leadership, and long-term strategy. They excel when climbing the ladder of success, building foundations, and achieving tangible results.</p>
+<h3>Best Careers for Capricorn</h3>
+<ul>
+<li>Business management or entrepreneurship</li>
+<li>Finance, banking, or accounting</li>
+<li>Law, politics, or government</li>
+<li>Architecture or engineering</li>
+<li>Project management or consulting</li>
+<li>Real estate or property development</li>
+<li>Administration or organizational leadership</li>
+<li>Teaching or mentoring</li>
+</ul>
+<h3>Work Style</h3>
+<p>Capricorns are:</p>
+<ul>
+<li>Highly disciplined and methodical</li>
+<li>Strategic and goal-oriented</li>
+<li>Persistent and patient</li>
+<li>Responsible and reliable</li>
+<li>Natural leaders and problem-solvers</li>
+</ul>
+<p>They may struggle with overly chaotic environments, lack of structure, or unpredictability.</p>
+<h3>Money Habits</h3>
+<p>Capricorn is financially savvy:</p>
+<ul>
+<li>Values security and long-term planning</li>
+<li>Budget-conscious and disciplined</li>
+<li>Invests wisely for the future</li>
+<li>Prefers stability over impulsive spending</li>
+<li>Enjoys quality purchases and long-term investments</li>
+</ul>
+
+
         `,
         friendship: `
-            <p>As friends, Capricorn offers loyalty, practical wisdom, and steady support. They're the friend who helps you create a five-year plan, who gives honest advice even when it's hard to hear, who shows up consistently over decades.</p>
+<p>Capricorn is a loyal, dependable, and supportive friend. They form strong, long-term connections and value trust and consistency.</p>
+<h3>Capricorn as a Friend:</h3>
+<ul>
+<li>Loyal and trustworthy</li>
+<li>Reliable and protective</li>
+<li>Offers practical advice and guidance</li>
+<li>Values long-term, meaningful friendships</li>
+<li>Provides emotional and strategic support</li>
+</ul>
+<p>Capricorns prefer friendships with mutual respect, reliability, and shared goals or values.</p>
+
+
         `,
         health: `
-            <p>Capricorn's relationship with health is disciplined but sometimes neglected due to work focus. Stress affects them through their bones, joints, and teeth. They benefit from structured exercise routines and need to remember that rest is productive, not lazy.</p>
+<p>Capricorn rules the knees, joints, and skeletal system. Potential health concerns include:</p>
+<ul>
+<li>Joint issues or arthritis</li>
+<li>Stress-related conditions from work overload</li>
+<li>Back and knee strain</li>
+</ul>
+<h3>Health Tips for Capricorn:</h3>
+<ul>
+<li>Regular, moderate exercise (strength training, yoga, walking)</li>
+<li>Balanced diet to support bone and joint health</li>
+<li>Stress management and relaxation practices</li>
+<li>Adequate rest and recovery</li>
+<li>Mind-body connection activities</li>
+</ul>
+<p>Capricorn thrives when balancing discipline, physical health, and emotional well-being.</p>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">🌍 Best Matches</div>
-                    <p><strong>Taurus & Virgo:</strong> Earth sign harmony creates stable, ambitious partnerships built on shared values.</p>
-                    <p><strong>Cancer & Scorpio:</strong> Water signs provide emotional depth that balances Capricorn's practicality.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Taurus:</strong> Grounded, dependable, and shares Capricorn’s practicality.</p>
+<p><strong>Virgo:</strong> Thoughtful, reliable, and mutually supportive.</p>
+<p><strong>Scorpio:</strong> Loyal, intense, and emotionally aligned.</p>
+<p><strong>Pisces:</strong> Compassionate, nurturing, and balancing Capricorn’s ambition.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Aries & Libra:</strong> Different paces and priorities create ongoing friction.</p>
+                    
+<p><strong>Aries:</strong> Impulsive, adventurous energy may clash with Capricorn’s caution.</p>
+<p><strong>Gemini:</strong> Inconsistent or flighty tendencies frustrate Capricorn.</p>
+<p><strong>Leo:</strong> Strong ego may conflict with Capricorn’s steady approach.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Capricorn represents the sea-goat, a creature with the front of a goat and the tail of a fish. In Greek mythology, this represents Pan, who transformed himself to escape the monster Typhon. This mythology encapsulates Capricorn's essence: the ability to navigate both earthly and emotional realms, adaptability in crisis, and the combination of ambition (climbing) with depth (swimming).</p>
+<p>The Mountain Goat symbolizes ambition, determination, and perseverance. Capricorn’s mythology is often linked to Pan, the goat god, or the sea-goat in Babylonian astrology, representing the balance between practical earthly goals and spiritual growth. Capricorn embodies resilience, strategic planning, and the pursuit of excellence.</p>
+<p>Themes include:</p>
+<ul>
+<li>Discipline and responsibility</li>
+<li>Ambition and perseverance</li>
+<li>Practicality and groundedness</li>
+<li>Leadership and authority</li>
+<li>Long-term planning and success</li>
+</ul>
+<p>Capricorn energy reminds us that patience, determination, and careful planning yield lasting results.</p>
+
+
         `,
         summary: `
-            <p>Capricorn stands as the zodiac's master builder, reminding us that lasting achievement requires patience, discipline, and consistent effort. Their spiritual gift is the reminder that we honor our potential through dedicated work and that true success is measured over lifetimes, not moments.</p>
-        `
+<p>Capricorn is the zodiac’s determined architect—disciplined, ambitious, reliable, and strategic. They teach the world the value of patience, perseverance, and long-term planning. Capricorn’s presence brings stability, structure, and practical wisdom, showing that consistent effort and dedication lead to enduring success.</p>
+
+        `,
     },
 
     aquarius: {
@@ -530,50 +1771,175 @@ export const zodiacData = {
         dates: "January 20 - February 18",
         element: "Air",
         modality: "Fixed",
-        rulingPlanet: "Uranus/Saturn",
+        rulingPlanet: "Uranus",
         overview: `
-            <p>Aquarius, the eleventh sign of the zodiac, embodies the revolutionary spirit of innovation and humanitarian vision. Ruled by Uranus, the planet of sudden change and awakening, and traditionally by Saturn, Aquarius natives possess a unique combination of visionary thinking and practical application. This fixed air sign doesn't just think differently—they actively work to create a better future for all.</p>
-            <p>The Water Bearer perfectly captures their essence: pouring out knowledge and innovation for the benefit of humanity.</p>
+<p>Aquarius, symbolized by the Water Bearer and ruled by Uranus (and traditionally Saturn), is the eleventh sign of the zodiac. As a fixed air sign, Aquarius represents originality, independence, innovation, and humanitarianism. Aquarians are forward-thinking, intellectual, and socially conscious, always seeking ways to improve the world and inspire change. Their energy is inventive, progressive, and unconventional, often setting them apart from the crowd.</p>
+<p>Uranus, the planet of innovation, change, and unpredictability, shapes Aquarius’ vision and desire for progress. Aquarians are natural rebels and visionaries, constantly challenging tradition and embracing new ideas. Their focus on originality, equality, and social improvement drives them to think differently, create new solutions, and advocate for causes they believe in.</p>
+<p>Aquarius is independent, inventive, and intellectually curious. They thrive in environments that allow freedom of thought, creativity, and collaboration. While sometimes perceived as detached or aloof, Aquarians are deeply committed to ideas, causes, and friendships that align with their values. Their energy is humanitarian, progressive, and forward-looking, inspiring others to embrace innovation and change.</p>
+<p>While Aquarians can struggle with emotional detachment or unpredictability, their originality, vision, and intellect make them catalysts for progress. Aquarius embodies intelligence, creativity, independence, and the pursuit of a better future.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Aquarius individuals possess brilliant, innovative minds that see possibilities others miss. They're natural humanitarians who genuinely care about collective wellbeing. Their independence is legendary—they march to their own drum without apology. They're excellent at seeing patterns and systems, making them natural reformers and inventors.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same independence that makes Aquarius so innovative can manifest as emotional detachment and difficulty with intimacy. They may intellectualize emotions rather than feeling them. Their rebellious nature can become contrarian for its own sake. They can be so focused on humanity that they neglect individual relationships.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Innovative and original:</strong> Constantly thinking outside the box.</li>
+<li><strong>Independent:</strong> Values personal freedom and autonomy.</li>
+<li><strong>Intellectual and analytical:</strong> Loves exploring ideas and concepts.</li>
+<li><strong>Humanitarian and idealistic:</strong> Cares about improving the world.</li>
+<li><strong>Friendly and sociable:</strong> Builds wide networks of friends and colleagues.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Emotionally detached:</strong> May struggle with expressing vulnerability.</li>
+<li><strong>Rebellious or unpredictable:</strong> Can resist authority or conventions.</li>
+<li><strong>Stubborn:</strong> Fixed nature makes them resistant to compromise.</li>
+<li><strong>Overly idealistic:</strong> May set unrealistic expectations.</li>
+<li><strong>Inconsistent focus:</strong> Interests and priorities can shift quickly.</li>
+</ul>
+<p>Aquarius thrives in environments that encourage creativity, innovation, social contribution, and intellectual freedom.</p>
+
+
         `,
         love: `
-            <p>In love, Aquarius seeks friendship, intellectual connection, and mutual independence. They need partners who respect their need for freedom and can engage in stimulating conversations. They show affection through sharing ideas, supporting their partner's individuality, and working together toward shared ideals.</p>
-            <p>Best matches include Gemini and Libra, fellow air signs who share their intellectual approach. Aries and Sagittarius also complement them well, providing excitement and respecting their independence.</p>
+<p>Aquarius approaches love with independence, curiosity, and intellectual engagement. They seek partners who respect their need for freedom, share their vision for the future, and stimulate them mentally.</p>
+<h3>In Love, Aquarius Is:</h3>
+<ul>
+<li>Loyal yet independent</li>
+<li>Intellectual and communicative</li>
+<li>Innovative and adventurous</li>
+<li>Caring for social causes and ideals</li>
+<li>Playful and fun-loving</li>
+</ul>
+<p>They dislike possessiveness, restriction, or emotional heaviness. Aquarians flourish in relationships that balance intimacy with freedom and creativity.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Gemini:</strong> Shared curiosity, intellectual connection, and social compatibility.</li>
+<li><strong>Libra:</strong> Harmonious, communicative, and socially engaging partnership.</li>
+<li><strong>Sagittarius:</strong> Adventurous, freedom-loving, and optimistic.</li>
+<li><strong>Aries:</strong> Energetic, stimulating, and independent pairing.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Taurus:</strong> Practical, grounded nature may clash with Aquarius’ unconventional approach.</li>
+<li><strong>Cancer:</strong> Emotional attachment may feel restrictive.</li>
+<li><strong>Scorpio:</strong> Intensity may overwhelm detached Aquarius.</li>
+</ul>
+<p>With mutual respect, communication, and flexibility, Aquarius can form meaningful, intellectually rich relationships.</p>
+
+
         `,
         career: `
-            <p>Professionally, Aquarius excels in careers involving innovation, technology, or humanitarian work. Ideal careers include technology and innovation, social activism and reform, science and research, and any field working toward progressive change.</p>
+<p>Aquarius thrives in careers that involve innovation, technology, social reform, or forward-thinking problem solving. They excel in environments that value originality and creativity.</p>
+<h3>Best Careers for Aquarius</h3>
+<ul>
+<li>Technology, AI, or scientific research</li>
+<li>Social activism or humanitarian work</li>
+<li>Innovation, entrepreneurship, or start-ups</li>
+<li>Writing, journalism, or media</li>
+<li>Teaching, mentoring, or education reform</li>
+<li>Environmental advocacy</li>
+<li>Space or futuristic exploration</li>
+<li>Design, architecture, or creative arts</li>
+</ul>
+<h3>Work Style</h3>
+<p>Aquarians are:</p>
+<ul>
+<li>Innovative and inventive</li>
+<li>Independent thinkers</li>
+<li>Problem-solvers and strategists</li>
+<li>Visionary leaders or collaborators</li>
+<li>Motivated by freedom, creativity, and impact</li>
+</ul>
+<p>They may struggle in rigid, highly structured environments or with conventional routines.</p>
+<h3>Money Habits</h3>
+<p>Aquarius approaches money with innovation and independence:</p>
+<ul>
+<li>May invest in technology or unconventional ventures</li>
+<li>Values freedom over traditional financial security</li>
+<li>Generous with causes they care about</li>
+<li>Can be inconsistent with budgeting</li>
+<li>Learns financial lessons through experimentation</li>
+</ul>
+
+
         `,
         friendship: `
-            <p>As friends, Aquarius brings unique perspectives, intellectual stimulation, and genuine acceptance of others' quirks. They're the friend who introduces you to fascinating ideas and people, who supports your individuality, who fights for causes that matter.</p>
+<p>Aquarius is friendly, sociable, and values intellectual and social connections. They enjoy networking, group activities, and contributing to causes.</p>
+<h3>Aquarius as a Friend:</h3>
+<ul>
+<li>Loyal and supportive</li>
+<li>Fun, adventurous, and social</li>
+<li>Offers unique perspectives and advice</li>
+<li>Encourages independence and growth</li>
+<li>Values shared ideals and causes</li>
+</ul>
+<p>Aquarians thrive in friendships built on mutual respect, intellectual stimulation, and shared vision.</p>
+
+
         `,
         health: `
-            <p>Aquarius' relationship with health is often intellectual—they're interested in cutting-edge wellness approaches. Stress affects them through their circulatory system and ankles. They benefit from group activities and unconventional exercise approaches.</p>
+<p>Aquarius rules the circulatory system, ankles, and calves. Potential health concerns include:</p>
+<ul>
+<li>Circulatory or leg issues</li>
+<li>Stress-related ailments</li>
+<li>Overexertion from active lifestyle</li>
+</ul>
+<h3>Health Tips for Aquarius:</h3>
+<ul>
+<li>Regular exercise focusing on legs and circulation (walking, cycling, yoga)</li>
+<li>Balanced diet and hydration</li>
+<li>Mental health care through meditation or creative outlets</li>
+<li>Outdoor activities to balance energy and social interaction</li>
+<li>Avoid overworking and respect rest needs</li>
+</ul>
+<p>Aquarius thrives when both mind and body are engaged in stimulating, purposeful activities.</p>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">💨 Best Matches</div>
-                    <p><strong>Gemini & Libra:</strong> Air sign harmony creates intellectually stimulating, progressive partnerships.</p>
-                    <p><strong>Aries & Sagittarius:</strong> Fire signs provide excitement and share their love of independence.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Gemini:</strong> Shared curiosity, intellectual connection, and social compatibility.</p>
+<p><strong>Libra:</strong> Harmonious, communicative, and socially engaging partnership.</p>
+<p><strong>Sagittarius:</strong> Adventurous, freedom-loving, and optimistic.</p>
+<p><strong>Aries:</strong> Energetic, stimulating, and independent pairing.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Taurus & Scorpio:</strong> Fixed sign stubbornness and different emotional approaches create tension.</p>
+                    
+<p><strong>Taurus:</strong> Practical, grounded nature may clash with Aquarius’ unconventional approach.</p>
+<p><strong>Cancer:</strong> Emotional attachment may feel restrictive.</p>
+<p><strong>Scorpio:</strong> Intensity may overwhelm detached Aquarius.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Aquarius represents Ganymede, a beautiful youth who was brought to Olympus to serve as cupbearer to the gods. This mythology encapsulates Aquarius' essence: serving the collective, bringing divine knowledge to humanity, and the theme of elevation from earthly to celestial realms.</p>
+<p>The Water Bearer symbolizes knowledge, innovation, and humanitarianism. In mythology, Aquarius is linked to Ganymede, the divine cupbearer, representing sharing wisdom, inspiration, and life-giving energy. Aquarius teaches us to embrace originality, humanitarian ideals, and progressive thinking.</p>
+<p>Themes include:</p>
+<ul>
+<li>Innovation and originality</li>
+<li>Independence and freedom</li>
+<li>Social consciousness and humanitarianism</li>
+<li>Intellectual exploration and vision</li>
+<li>Friendship and collaboration</li>
+</ul>
+<p>Aquarius energy inspires forward-thinking, creativity, and the pursuit of progress for the greater good.</p>
+
+
         `,
         summary: `
-            <p>Aquarius stands as the zodiac's visionary and humanitarian, reminding us that progress requires thinking differently and that we're responsible for creating the future we want to see. Their spiritual gift is the reminder that we're all connected and that innovation serves humanity best when it benefits all.</p>
-        `
+<p>Aquarius is the zodiac’s visionary innovator—intelligent, independent, humanitarian, and original. They teach the world to embrace creativity, freedom, and progressive ideas. With Aquarius, life is about thinking beyond convention, connecting with others, and making a positive impact on the world.</p>
+
+        `,
     },
 
     pisces: {
@@ -582,49 +1948,171 @@ export const zodiacData = {
         dates: "February 19 - March 20",
         element: "Water",
         modality: "Mutable",
-        rulingPlanet: "Neptune/Jupiter",
+        rulingPlanet: "Neptune",
         overview: `
-            <p>Pisces, the twelfth and final sign of the zodiac, embodies the mystical dissolution of boundaries and the return to cosmic unity. Ruled by Neptune, the planet of dreams, spirituality, and transcendence, and traditionally by Jupiter, Pisces natives possess extraordinary intuition, compassion, and creative imagination. This mutable water sign doesn't just feel emotions—they merge with them, experiencing life through a lens of empathy and spiritual connection.</p>
-            <p>The Two Fish perfectly capture their essence: swimming in opposite directions yet connected, navigating between material and spiritual realms.</p>
+<p>Pisces, symbolized by the Fish and ruled by Neptune (and traditionally Jupiter), is the twelfth sign of the zodiac. As a mutable water sign, Pisces embodies compassion, intuition, creativity, and spiritual depth. Pisceans are naturally empathetic, deeply sensitive to the feelings of others, and often guided by their intuition and imagination. Their energy is fluid, adaptable, and deeply connected to the emotional and spiritual realms.</p>
+<p>Neptune, the planet of dreams, illusions, and imagination, gives Pisces their mystical, visionary qualities. Pisceans are creative and artistic, often excelling in music, writing, painting, or any form of expressive art. Their vivid imagination and emotional insight allow them to connect with the world in profound and meaningful ways.</p>
+<p>Pisces is gentle, compassionate, and highly intuitive. They are deeply empathetic, often feeling the emotions of others as if they were their own. While their sensitivity can make them vulnerable, it also allows them to bring healing, comfort, and understanding to those around them. Pisceans have a spiritual awareness that draws them to explore the mysteries of life, connect with the unseen, and pursue higher consciousness.</p>
+<p>Though Pisceans can struggle with escapism, indecision, or over-sensitivity, their creativity, empathy, and spiritual insight make them uniquely gifted. Pisces embodies compassion, imagination, intuition, and emotional wisdom.</p>
+
+
         `,
         personality: `
-            <h3>Strengths</h3>
-            <p>Pisces individuals possess profound empathy and intuition that borders on psychic ability. They're natural artists and dreamers who can envision possibilities beyond ordinary perception. Their compassion is boundless—they genuinely feel others' pain and joy. They're adaptable and accepting, seeing the divine in everyone and everything.</p>
-            
-            <h3>Challenges</h3>
-            <p>The same empathy that makes Pisces so compassionate can manifest as boundary issues and emotional overwhelm. They may absorb others' emotions without realizing it. Their dreamy nature can lead to escapism and difficulty with practical matters. They struggle with saying no and may sacrifice themselves excessively for others.</p>
+<h3>Strengths</h3>
+<ul>
+<li><strong>Empathetic and compassionate:</strong> Deeply feels the emotions of others.</li>
+<li><strong>Intuitive and spiritual:</strong> Guided by instinct, dreams, and higher awareness.</li>
+<li><strong>Creative and artistic:</strong> Excel in expressive, imaginative endeavors.</li>
+<li><strong>Adaptable and flexible:</strong> Flows easily with change.</li>
+<li><strong>Gentle and caring:</strong> Brings comfort and support to others.</li>
+</ul>
+<h3>Challenges</h3>
+<ul>
+<li><strong>Overly sensitive:</strong> May absorb negative energy or criticism easily.</li>
+<li><strong>Escapist tendencies:</strong> Can retreat from reality through fantasy or avoidance.</li>
+<li><strong>Indecisive:</strong> Struggles to make firm decisions.</li>
+<li><strong>Overly trusting:</strong> May be vulnerable to manipulation.</li>
+<li><strong>Emotionally fragile:</strong> Needs emotional boundaries to maintain balance.</li>
+</ul>
+<p>Pisceans thrive in environments that nurture creativity, compassion, and emotional expression. They flourish when supported in their dreams and visions.</p>
+
+
         `,
         love: `
-            <p>In love, Pisces is romantic, devoted, and deeply spiritual. They seek soul connections and transcendent union with their partners. They show affection through unconditional acceptance, creative expressions of love, and intuitive understanding of their partner's needs.</p>
-            <p>Best matches include Cancer and Scorpio, fellow water signs who understand emotional depth. Taurus and Capricorn also complement them well, providing grounding stability that helps Pisces manifest their dreams.</p>
+<p>Pisces approaches love with devotion, tenderness, and emotional depth. They are romantic, empathetic, and sensitive partners who value connection, intimacy, and shared dreams.</p>
+<h3>In Love, Pisces Is:</h3>
+<ul>
+<li>Romantic and idealistic</li>
+<li>Empathetic and understanding</li>
+<li>Loyal and caring</li>
+<li>Intuitive and emotionally supportive</li>
+<li>Creative in expressing love</li>
+</ul>
+<p>They dislike coldness, dishonesty, or emotional neglect. Pisceans thrive in relationships where their sensitivity, creativity, and devotion are appreciated.</p>
+<h3>Best Matches</h3>
+<ul>
+<li><strong>Cancer:</strong> Deep emotional understanding and nurturing connection.</li>
+<li><strong>Scorpio:</strong> Intense, loyal, and emotionally aligned.</li>
+<li><strong>Taurus:</strong> Stable, grounded, and supportive partnership.</li>
+<li><strong>Capricorn:</strong> Balances Pisces’ dreaminess with practicality and structure.</li>
+</ul>
+<h3>More Challenging Matches</h3>
+<ul>
+<li><strong>Gemini:</strong> Inconsistent or rational energy may conflict with Pisces’ emotional depth.</li>
+<li><strong>Sagittarius:</strong> Restless, freedom-loving nature may clash with sensitive Pisces.</li>
+<li><strong>Leo:</strong> Strong ego may overwhelm Pisces’ gentle energy.</li>
+</ul>
+<p>With empathy, patience, and communication, Pisces forms profound, soulful, and lasting relationships.</p>
+
+
         `,
         career: `
-            <p>Professionally, Pisces excels in careers involving creativity, healing, or spiritual work. Ideal careers include arts and entertainment, healing professions, counseling and therapy, spiritual and religious work, and any field requiring imagination and empathy.</p>
+<p>Pisces thrives in careers that involve creativity, compassion, intuition, or spiritual guidance. They excel in roles that allow imagination, empathy, and personal expression.</p>
+<h3>Best Careers for Pisces</h3>
+<ul>
+<li>Art, music, or creative writing</li>
+<li>Healing professions: therapy, counseling, or medicine</li>
+<li>Spiritual guidance, astrology, or life coaching</li>
+<li>Social work or humanitarian efforts</li>
+<li>Film, media, or performance arts</li>
+<li>Environmental or animal advocacy</li>
+<li>Design, fashion, or aesthetic professions</li>
+</ul>
+<h3>Work Style</h3>
+<p>Pisceans are:</p>
+<ul>
+<li>Creative and imaginative</li>
+<li>Intuitive and empathetic</li>
+<li>Adaptable and cooperative</li>
+<li>Motivated by purpose and meaning</li>
+<li>Sensitive to work environment and culture</li>
+</ul>
+<p>They may struggle in rigid, overly competitive, or unsupportive workplaces.</p>
+<h3>Money Habits</h3>
+<p>Pisces tends to approach money with fluidity and idealism:</p>
+<ul>
+<li>Can be generous to others, sometimes overly so</li>
+<li>May need guidance to manage finances effectively</li>
+<li>Prefers spending on experiences, art, or comfort</li>
+<li>Learns financial responsibility gradually</li>
+</ul>
+
+
         `,
         friendship: `
-            <p>As friends, Pisces offers unconditional acceptance, creative inspiration, and deep emotional support. They're the friend who understands without words, who creates beauty and magic in ordinary moments, who sees your highest potential.</p>
+<p>Pisces is a loyal, empathetic, and nurturing friend. They bring emotional insight, creativity, and gentle support to friendships.</p>
+<h3>Pisces as a Friend:</h3>
+<ul>
+<li>Compassionate and understanding</li>
+<li>Loyal and trustworthy</li>
+<li>Offers creative solutions and advice</li>
+<li>Values emotional and spiritual connection</li>
+<li>Enjoys shared artistic or meaningful experiences</li>
+</ul>
+<p>They thrive in friendships with mutual trust, empathy, and emotional depth.</p>
+
+
         `,
         health: `
-            <p>Pisces' relationship with health is deeply connected to their emotional and spiritual state. Stress affects them through their feet and immune system. They benefit from water-based activities, creative expression, and spiritual practices that help them process emotions.</p>
+<p>Pisces rules the feet, lymphatic system, and immune system. Potential health concerns include:</p>
+<ul>
+<li>Foot or ankle injuries</li>
+<li>Immune system vulnerabilities</li>
+<li>Stress or emotional imbalance affecting physical health</li>
+</ul>
+<h3>Health Tips for Pisces:</h3>
+<ul>
+<li>Regular exercise, particularly low-impact activities (swimming, walking, yoga)</li>
+<li>Adequate rest and relaxation</li>
+<li>Meditation, journaling, or creative outlets to process emotions</li>
+<li>Balanced diet and hydration</li>
+<li>Establishing boundaries to protect emotional well-being</li>
+</ul>
+
+
         `,
         compatibility: `
+
             <div class="compatibility-grid">
                 <div class="compatibility-card">
-                    <div class="compatibility-title">🌊 Best Matches</div>
-                    <p><strong>Cancer & Scorpio:</strong> Water sign harmony creates deeply intuitive, emotionally rich partnerships.</p>
-                    <p><strong>Taurus & Capricorn:</strong> Earth signs provide grounding stability that helps Pisces manifest their dreams.</p>
+                    <div class="compatibility-title">❤️ Best Matches</div>
+                    
+<p><strong>Cancer:</strong> Deep emotional understanding and nurturing connection.</p>
+<p><strong>Scorpio:</strong> Intense, loyal, and emotionally aligned.</p>
+<p><strong>Taurus:</strong> Stable, grounded, and supportive partnership.</p>
+<p><strong>Capricorn:</strong> Balances Pisces’ dreaminess with practicality and structure.</p>
+
+
                 </div>
                 <div class="compatibility-card">
                     <div class="compatibility-title">⚠️ Challenging Matches</div>
-                    <p><strong>Gemini & Sagittarius:</strong> Different approaches to truth and reality create misunderstandings.</p>
+                    
+<p><strong>Gemini:</strong> Inconsistent or rational energy may conflict with Pisces’ emotional depth.</p>
+<p><strong>Sagittarius:</strong> Restless, freedom-loving nature may clash with sensitive Pisces.</p>
+<p><strong>Leo:</strong> Strong ego may overwhelm Pisces’ gentle energy.</p>
+
+
                 </div>
             </div>
+    
         `,
         mythology: `
-            <p>The constellation Pisces represents two fish tied together, swimming in opposite directions. In Greek mythology, these are Aphrodite and Eros who transformed into fish to escape the monster Typhon. This mythology encapsulates Pisces' essence: the ability to transform and adapt, the connection between love and spirituality, and the theme of navigating between different realms.</p>
+<p>The Fish symbolize intuition, flow, and spiritual awareness. In mythology, Pisces is linked to Aphrodite and Eros, who transformed into fish to escape danger, representing adaptability, compassion, and connection to higher realms. Pisces energy encourages spiritual growth, imagination, and empathy.</p>
+<p>Themes include:</p>
+<ul>
+<li>Compassion and empathy</li>
+<li>Creativity and imagination</li>
+<li>Intuition and spiritual insight</li>
+<li>Adaptability and flow</li>
+<li>Emotional depth and sensitivity</li>
+</ul>
+
+
         `,
         summary: `
-            <p>Pisces stands as the zodiac's mystic and healer, reminding us that we're all connected, that compassion is our greatest strength, and that imagination creates reality. Their spiritual gift is the reminder that love transcends all boundaries and that we're spiritual beings having a human experience.</p>
-        `
-    }
+<p>Pisces is the zodiac’s dreamer and healer—intuitive, compassionate, creative, and spiritually attuned. They teach the world about empathy, imagination, and the importance of emotional and spiritual connection. With Pisces, life is enriched by dreams, intuition, and profound compassion for oneself and others.</p>
+
+        `,
+    },
+
 };

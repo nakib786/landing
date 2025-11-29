@@ -195,6 +195,39 @@ function Home() {
                 </div>
               </div>
 
+              {/* Zodiac Signs Grid */}
+              <div className="w-full max-w-6xl mb-16 animate-fade-in">
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
+                  Explore the <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Zodiac</span>
+                </h2>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                  {[
+                    { name: 'Aries', symbol: '♈', dates: 'Mar 21 - Apr 19' },
+                    { name: 'Taurus', symbol: '♉', dates: 'Apr 20 - May 20' },
+                    { name: 'Gemini', symbol: '♊', dates: 'May 21 - Jun 20' },
+                    { name: 'Cancer', symbol: '♋', dates: 'Jun 21 - Jul 22' },
+                    { name: 'Leo', symbol: '♌', dates: 'Jul 23 - Aug 22' },
+                    { name: 'Virgo', symbol: '♍', dates: 'Aug 23 - Sep 22' },
+                    { name: 'Libra', symbol: '♎', dates: 'Sep 23 - Oct 22' },
+                    { name: 'Scorpio', symbol: '♏', dates: 'Oct 23 - Nov 21' },
+                    { name: 'Sagittarius', symbol: '♐', dates: 'Nov 22 - Dec 21' },
+                    { name: 'Capricorn', symbol: '♑', dates: 'Dec 22 - Jan 19' },
+                    { name: 'Aquarius', symbol: '♒', dates: 'Jan 20 - Feb 18' },
+                    { name: 'Pisces', symbol: '♓', dates: 'Feb 19 - Mar 20' }
+                  ].map((sign) => (
+                    <Link
+                      key={sign.name}
+                      to={`/zodiac/${sign.name.toLowerCase()}`}
+                      className="bg-white/5 backdrop-blur-sm p-4 rounded-xl border border-white/10 hover:bg-white/10 hover:border-purple-500/50 transition-all duration-300 group text-center"
+                    >
+                      <div className="text-3xl mb-2 group-hover:scale-110 transition-transform duration-300">{sign.symbol}</div>
+                      <h3 className="text-white font-semibold">{sign.name}</h3>
+                      <p className="text-xs text-purple-300">{sign.dates}</p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
               {/* Rich Content for AdSense/SEO */}
               <AstrologyContent />
             </main>

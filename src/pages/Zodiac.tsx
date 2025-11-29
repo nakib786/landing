@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Link, useParams, useNavigate } from 'react-router-dom'
 // @ts-ignore
 import StarField from '../components/StarField'
 import FluidCursorEffect from '../components/ui/smokey-cursor-effect'
@@ -8,7 +8,23 @@ import ZodiacLogo from '../components/ZodiacLogo'
 import { zodiacData } from '../data/zodiac-data'
 
 function Zodiac() {
-    const [selectedSign, setSelectedSign] = useState('aries')
+    const { sign: urlSign } = useParams()
+    const navigate = useNavigate()
+    const [selectedSign, setSelectedSign] = useState(urlSign || 'aries')
+
+    useEffect(() => {
+        // @ts-ignore
+        if (urlSign && zodiacData[urlSign.toLowerCase()]) {
+            setSelectedSign(urlSign.toLowerCase())
+        }
+    }, [urlSign])
+
+    const handleSignChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+        const newSign = e.target.value
+        setSelectedSign(newSign)
+        navigate(`/zodiac/${newSign}`)
+    }
+
     // @ts-ignore
     const sign = zodiacData[selectedSign]
 
@@ -38,10 +54,10 @@ function Zodiac() {
                 {/* Logo in top left corner - clickable link to home */}
                 <Link
                     to="/"
-                    className="fixed top-6 left-6 z-50 hover:scale-110 transition-transform duration-300 animate-float"
+                    className="fixed top-4 left-4 md:top-6 md:left-6 z-50 hover:scale-110 transition-transform duration-300 animate-float"
                     aria-label="Go to home page"
                 >
-                    <ZodiacLogo />
+                    <ZodiacLogo className="w-16 h-16 md:w-[220px] md:h-[220px]" />
                 </Link>
 
                 <main className="relative z-10 flex flex-col px-6 py-12 flex-grow max-w-6xl mx-auto w-full">
@@ -65,7 +81,7 @@ function Zodiac() {
                             </label>
                             <select
                                 value={selectedSign}
-                                onChange={(e) => setSelectedSign(e.target.value)}
+                                onChange={handleSignChange}
                                 className="w-full px-6 py-4 text-lg bg-indigo-950/80 text-white border-2 border-purple-500/50 rounded-2xl cursor-pointer transition-all duration-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/30 focus:outline-none focus:border-purple-400 focus:shadow-lg focus:shadow-purple-400/50"
                             >
                                 {zodiacSigns.map((z) => (
