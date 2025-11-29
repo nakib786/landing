@@ -1,19 +1,10 @@
 # robots.txt for FreeHoroscopeNow.com
+# Fully allows all bots to crawl and scrape everything
 
-# Allow all search engines to crawl
 User-agent: *
 Allow: /
 
-# Disallow admin and private directories (if any exist in the future)
-Disallow: /admin/
-Disallow: /private/
-Disallow: /api/
-
-# Sitemap location
 Sitemap: https://www.freehoroscopenow.com/sitemap.xml
-
-# Crawl-delay (optional - allows bots to crawl without overwhelming the server)
-Crawl-delay: 1
 
 
 
