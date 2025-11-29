@@ -36,21 +36,14 @@ export default function AdSense({
   const shouldRenderAd = import.meta.env.PROD || import.meta.env.VITE_ENABLE_ADS === 'true'
 
   if (!shouldRenderAd) {
-    return (
-      <div
-        className={`bg-white/5 backdrop-blur-sm rounded-2xl border border-white/20 p-4 flex items-center justify-center min-h-[100px] ${className}`}
-        style={style}
-      >
-        <p className="text-purple-200 text-sm">Ad placeholder (disabled in development)</p>
-      </div>
-    )
+    return null
   }
 
   return (
     <div
       ref={adRef}
-      className={`bg-white/5 backdrop-blur-sm rounded-2xl border border-white/20 p-4 flex items-center justify-center min-h-[100px] ${className}`}
-      style={style}
+      className={`h-0 invisible opacity-0 ${className}`}
+      style={{...style, height: 0, minHeight: 0, overflow: 'hidden'}}
     >
       <ins
         className="adsbygoogle"

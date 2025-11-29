@@ -243,7 +243,7 @@ function PrivacyPolicy() {
         </main>
 
         {/* Bottom Ad */}
-        <div className="w-full max-w-md mx-auto mt-12 pb-8">
+        <div className="w-full max-w-md mx-auto mt-0 pb-0">
           <AdSense adSlot="3367554321" adFormat="rectangle" />
         </div>
         

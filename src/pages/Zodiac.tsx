@@ -75,7 +75,7 @@ function Zodiac() {
                     </header>
 
                     {/* Top Ad */}
-                    <div className="w-full mb-8">
+                    <div className="w-full mb-0">
                       <AdSense adSlot="7289901234" adFormat="horizontal" />
                     </div>
 
@@ -99,7 +99,7 @@ function Zodiac() {
                         </div>
 
                         {/* Mid Rectangle Ad */}
-                        <div className="w-full max-w-md mx-auto my-12">
+                        <div className="w-full max-w-md mx-auto my-0">
                           <AdSense adSlot="1234567890" adFormat="rectangle" />
                         </div>
                     </div>

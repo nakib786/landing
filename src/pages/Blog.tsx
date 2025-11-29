@@ -398,7 +398,7 @@ Pisces teaches us about the power of intuition, compassion, and spiritual connec
                   </div>
                 </article>
                 {/* Mid-content Ad */}
-                <div className="col-span-full md:col-span-1 mb-8">
+                <div className="col-span-full md:col-span-1 mb-0">
                   <AdSense adSlot="1234567890" adFormat="vertical" />
                 </div>
               </React.Fragment>
@@ -406,7 +406,7 @@ Pisces teaches us about the power of intuition, compassion, and spiritual connec
           </div>
 
           {/* Bottom Ad */}
-          <div className="w-full mt-12 mb-8">
+          <div className="w-full mt-0 mb-0">
             <AdSense adSlot="3367554321" adFormat="rectangle" />
           </div>
 

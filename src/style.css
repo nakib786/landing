@@ -1,27 +1,45 @@
-/* Universal Reset - Fixes top white line/margin */
+@import "tailwindcss";
+
+/* Eliminate ALL top whitespace */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
-
-html {
-  height: 100%;
+html, body, #root {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  overflow-x: hidden;
 }
 
-body {
+body > * {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* AdSense/Google overrides */
+ins.adsbygoogle,
+div[data-ad],
+.google-auto-placed,
+[data-gr-ext],
+.grammarly-extension {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+}
+
+/* Reset default margins causing white top line */
+* {
+  box-sizing: border-box;
+}
+html, body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  height: 100%;
   overflow-x: hidden;
-  line-height: 1.6;
 }
-
-#root {
-  min-height: 100vh;
-}
-
-@import "tailwindcss";
 
 /* Custom animations */
 @keyframes twinkle {

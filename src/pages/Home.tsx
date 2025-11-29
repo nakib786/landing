@@ -232,7 +232,7 @@ function Home() {
               {/* Rich Content for AdSense/SEO */}
               <AstrologyContent />
             {/* Bottom Ad */}
-            <div className="w-full mt-12 pt-8">
+            <div className="w-full mt-0 pt-0">
               <AdSense adSlot="3367554321" adFormat="rectangle" />
             </div>
           </main>
