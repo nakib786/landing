@@ -15,6 +15,7 @@ function HamburgerMenu() {
 
   const menuItems = [
     { path: '/', label: 'Home' },
+    { path: '/zodiac', label: 'Zodiac Signs' },
     { path: '/blog', label: 'Blog' }
   ]
 
@@ -27,7 +28,7 @@ function HamburgerMenu() {
           onClick={closeMenu}
         />
       )}
-      
+
       <nav className="fixed top-6 right-6 z-50">
         {/* Hamburger Button */}
         <button
@@ -36,19 +37,16 @@ function HamburgerMenu() {
           aria-label="Toggle menu"
         >
           <span
-            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
-              isOpen ? 'rotate-45 translate-y-2' : ''
-            }`}
+            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? 'rotate-45 translate-y-2' : ''
+              }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
-              isOpen ? 'opacity-0' : 'opacity-100'
-            }`}
+            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? 'opacity-0' : 'opacity-100'
+              }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
-              isOpen ? '-rotate-45 -translate-y-2' : ''
-            }`}
+            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? '-rotate-45 -translate-y-2' : ''
+              }`}
           />
         </button>
 
@@ -64,11 +62,10 @@ function HamburgerMenu() {
                   <Link
                     to={item.path}
                     onClick={closeMenu}
-                    className={`block px-4 py-2 rounded-lg transition-all duration-300 ${
-                      location.pathname === item.path
+                    className={`block px-4 py-2 rounded-lg transition-all duration-300 ${location.pathname === item.path
                         ? 'bg-white/20 text-white font-semibold'
                         : 'text-white/80 hover:bg-white/10 hover:text-white'
-                    }`}
+                      }`}
                   >
                     {item.label}
                   </Link>

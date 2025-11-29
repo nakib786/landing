@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Signs - Complete Astrology Guide</title>
+    <meta name="description"
+        content="Explore detailed zodiac sign descriptions, personality traits, love compatibility, career insights, and more. Discover what the stars reveal about you.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-purple: #8b5cf6;
+            --deep-purple: #6d28d9;
+            --cosmic-blue: #3b82f6;
+            --mystic-pink: #ec4899;
+            --gold: #fbbf24;
+            --dark-bg: #0f0a1e;
+            --card-bg: rgba(139, 92, 246, 0.05);
+            --text-primary: #f3f4f6;
+            --text-secondary: #d1d5db;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f0a1e 0%, #1a0b2e 50%, #160b28 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+            position: relative;
+            box-shadow: 0 0 0 4px rgba(251, 191, 36, 0.2);
+        }
+
+        .selector-icon {
+            position: absolute;
+            right: 1.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            font-size: 1.5rem;
+            margin-top: 0.6rem;
+        }
+
+        /* Content Card */
+        .content-card {
+            background: rgba(139, 92, 246, 0.05);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 24px;
+            padding: 3rem;
+            margin: 2rem 0;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+            animation: fadeIn 0.6s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .sign-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid rgba(139, 92, 246, 0.3);
+        }
+
+        .sign-symbol {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+            display: block;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .sign-name {
+            font-family: 'Cinzel', serif;
+            font-size: 3rem;
+            background: linear-gradient(135deg, var(--primary-purple), var(--cosmic-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .sign-dates {
+            font-size: 1.1rem;
+            color: var(--gold);
+            font-weight: 500;
+        }
+
+        .sign-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .meta-item {
+            background: rgba(139, 92, 246, 0.1);
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            font-size: 0.95rem;
+        }
+
+        .meta-label {
+            color: var(--text-secondary);
+            margin-right: 0.5rem;
+        }
+
+        .meta-value {
+            color: var(--primary-purple);
+            font-weight: 600;
+        }
+
+        section {
+            margin: 3rem 0;
+        }
+
+        h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            color: var(--primary-purple);
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        h2::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+        }
+
+        h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.4rem;
+            color: var(--mystic-pink);
+            margin: 2rem 0 1rem;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style: none;
+            margin: 1rem 0;
+        }
+
+        li {
+            color: var(--text-secondary);
+            padding: 0.8rem 0;
+            padding-left: 2rem;
+            position: relative;
+            line-height: 1.7;
+        }
+
+        li::before {
+            content: '★';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+        }
+
+        .compatibility-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .compatibility-card {
+            background: rgba(139, 92, 246, 0.08);
+            padding: 1.5rem;
+            border-radius: 16px;
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .compatibility-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+            border-color: var(--mystic-pink);
+        }
+
+        .compatibility-title {
+            font-weight: 600;
+            color: var(--primary-purple);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .final-summary {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1));
+            padding: 2.5rem;
+            border-radius: 20px;
+            border: 2px solid rgba(251, 191, 36, 0.3);
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .final-summary p {
+            font-size: 1.15rem;
+            line-height: 1.9;
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .content-card {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .sign-name {
+                font-size: 2rem;
+            }
+
+            .sign-symbol {
+                font-size: 3.5rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .sign-meta {
+                gap: 1rem;
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ Zodiac Signs Guide ✨</h1>
+            <p class="subtitle">Discover the cosmic wisdom of the stars</p>
+        </header>
+
+        <div class="selector-container">
+            <div class="zodiac-selector">
+                <label class="selector-label">Select Your Zodiac Sign</label>
+                <select id="zodiacSelect">
+                    <option value="aries">♈ Aries (March 21 - April 19)</option>
+                    <option value="taurus">♉ Taurus (April 20 - May 20)</option>
+                    <option value="gemini">♊ Gemini (May 21 - June 20)</option>
+                    <option value="cancer">♋ Cancer (June 21 - July 22)</option>
+                    <option value="leo">♌ Leo (July 23 - August 22)</option>
+                    <option value="virgo">♍ Virgo (August 23 - September 22)</option>
+                    <option value="libra">♎ Libra (September 23 - October 22)</option>
+                    <option value="scorpio">♏ Scorpio (October 23 - November 21)</option>
+                    <option value="sagittarius">♐ Sagittarius (November 22 - December 21)</option>
+                    <option value="capricorn">♑ Capricorn (December 22 - January 19)</option>
+                    <option value="aquarius">♒ Aquarius (January 20 - February 18)</option>
+                    <option value="pisces">♓ Pisces (February 19 - March 20)</option>
+                </select>
+                <span class="selector-icon">✦</span>
+            </div>
+        </div>
+
+        <div id="contentContainer"></div>
+    </div>
+
+    <script src="zodiac-data.js"></script>
+    <script>
+        const zodiacSelect = document.getElementById('zodiacSelect');
+        const contentContainer = document.getElementById('contentContainer');
+
+        function displayZodiacContent(sign) {
+            const data = zodiacData[sign];
+            if (!data) return;
+
+            contentContainer.innerHTML = `
+                <div class="content-card">
+                    <div class="sign-header">
+                        <span class="sign-symbol">${data.symbol}</span>
+                        <h2 class="sign-name">${data.name}</h2>
+                        <p class="sign-dates">${data.dates}</p>
+                        <div class="sign-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">Element:</span>
+                                <span class="meta-value">${data.element}</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Modality:</span>
+                                <span class="meta-value">${data.modality}</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Ruling Planet:</span>
+                                <span class="meta-value">${data.rulingPlanet}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section>
+                        <h2>Overview</h2>
+                        ${data.overview}
+                    </section>
+
+                    <section>
+                        <h2>Personality Traits</h2>
+                        ${data.personality}
+                    </section>
+
+                    <section>
+                        <h2>Love & Relationships</h2>
+                        ${data.love}
+                    </section>
+
+                    <section>
+                        <h2>Career & Money</h2>
+                        ${data.career}
+                    </section>
+
+                    <section>
+                        <h2>Friendship Style</h2>
+                        ${data.friendship}
+                    </section>
+
+                    <section>
+                        <h2>Health & Wellness</h2>
+                        ${data.health}
+                    </section>
+
+                    <section>
+                        <h2>Compatibility With Other Signs</h2>
+                        ${data.compatibility}
+                    </section>
+
+                    <section>
+                        <h2>Mythology, History, and Symbolism</h2>
+                        ${data.mythology}
+                    </section>
+
+                    <div class="final-summary">
+                        <h2>Final Summary</h2>
+                        ${data.summary}
+                    </div>
+                </div>
+            `;
+
+            // Smooth scroll to content
+            contentContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        zodiacSelect.addEventListener('change', (e) => {
+            displayZodiacContent(e.target.value);
+        });
+
+        // Display first sign on load
+        displayZodiacContent('aries');
+    </script>
+</body>
+
+</html>
